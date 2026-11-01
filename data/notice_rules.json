@@ -1,0 +1,120 @@
+{
+  "ASMT-10": {
+    "notice_type": "ASMT-10",
+    "title": "Notice for Scrutiny of Returns",
+    "legal_basis": ["Section 61", "Rule 99"],
+    "reply_form": "ASMT-11",
+    "window_days": 30,
+    "day_type": "calendar",
+    "window_basis": "30 calendar days from date of service",
+    "base_severity": "medium",
+    "verified_on": null,
+    "kb_queries": [
+      "Section 61 scrutiny of returns",
+      "Rule 99 scrutiny discrepancy",
+      "Form ASMT-10 discrepancies",
+      "Form ASMT-11 reply"
+    ]
+  },
+  "DRC-01": {
+    "notice_type": "DRC-01",
+    "title": "Show Cause Notice for Demand of Tax, Interest & Penalty",
+    "legal_basis": ["Section 73", "Section 74", "Section 74A", "Rule 142"],
+    "reply_form": "DRC-06",
+    "window_days": 30,
+    "day_type": "calendar",
+    "window_basis": "30 days from date of service",
+    "base_severity": "high",
+    "verified_on": null,
+    "kb_queries": [
+      "Section 73 determination of tax",
+      "Section 74 fraud willful misstatement",
+      "Section 74A non-fraud determination FY 2024-25",
+      "Rule 142 notice and order for demand",
+      "Form DRC-01 show cause notice",
+      "Form DRC-06 reply to show cause notice"
+    ]
+  },
+  "DRC-01A": {
+    "notice_type": "DRC-01A",
+    "title": "Intimation of Tax Ascertained Before Show Cause Notice",
+    "legal_basis": ["Rule 142(1A)", "Section 73(5)", "Section 74(5)", "Section 74A"],
+    "reply_form": "DRC-03 or DRC-01A Part B",
+    "window_days": null,
+    "day_type": "calendar",
+    "window_basis": "Check the notice for the deadline (advisory intimation)",
+    "base_severity": "high",
+    "verified_on": null,
+    "kb_queries": [
+      "Rule 142 intimation of tax ascertained",
+      "Form DRC-01A Part B submission",
+      "Form DRC-03 voluntary payment of tax",
+      "Section 73 voluntary payment"
+    ]
+  },
+  "REG-03": {
+    "notice_type": "REG-03",
+    "title": "Notice for Seeking Additional Information for Registration",
+    "legal_basis": ["Rule 9", "Section 25"],
+    "reply_form": "REG-04",
+    "window_days": 7,
+    "day_type": "working",
+    "window_basis": "7 working days from date of service",
+    "base_severity": "medium",
+    "verified_on": null,
+    "kb_queries": [
+      "Rule 9 verification of the application and approval",
+      "Form REG-03 seeking clarification",
+      "Form REG-04 clarification reply"
+    ]
+  },
+  "REG-17": {
+    "notice_type": "REG-17",
+    "title": "Show Cause Notice for Cancellation of Registration",
+    "legal_basis": ["Section 29", "Rule 22"],
+    "reply_form": "REG-18",
+    "window_days": 7,
+    "day_type": "working",
+    "window_basis": "7 working days from date of service",
+    "base_severity": "critical",
+    "verified_on": null,
+    "kb_queries": [
+      "Section 29 cancellation or suspension of registration",
+      "Rule 22 cancellation of registration procedure",
+      "Form REG-17 show cause cancellation",
+      "Form REG-18 reply to cancellation notice"
+    ]
+  },
+  "GSTR-3A": {
+    "notice_type": "GSTR-3A",
+    "title": "Notice to Return Defaulter for Not Filing Return",
+    "legal_basis": ["Section 39", "Section 46", "Rule 68", "Section 62"],
+    "reply_form": "file the pending returns",
+    "window_days": 15,
+    "day_type": "calendar",
+    "window_basis": "15 days from date of notice",
+    "base_severity": "high",
+    "verified_on": null,
+    "kb_queries": [
+      "Section 46 notice to return defaulters",
+      "Section 62 assessment of non-filers of returns",
+      "Rule 68 notice to non-filers",
+      "Form GSTR-3A return defaulter"
+    ]
+  },
+  "OTHER": {
+    "notice_type": "OTHER",
+    "title": "General / Non-Standard GST Notice or Communication",
+    "legal_basis": ["Section 125", "Section 75"],
+    "reply_form": null,
+    "window_days": null,
+    "day_type": "calendar",
+    "window_basis": "Check the notice for the deadline (consult a professional)",
+    "base_severity": "medium",
+    "verified_on": null,
+    "kb_queries": [
+      "Section 75 general provisions relating to determination of tax",
+      "Section 125 general penalty"
+    ]
+  }
+}

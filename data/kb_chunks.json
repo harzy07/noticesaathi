@@ -1,0 +1,908 @@
+{
+  "docs": [
+    {
+      "id": "cgst-act-s122",
+      "title": "CGST Act Section 122 — Penalty for certain offences",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-122",
+      "source_type": "act",
+      "version_note": "Statutory penalties for tax contraventions",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s125",
+      "title": "CGST Act Section 125 — General penalty",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-125",
+      "source_type": "act",
+      "version_note": "Statutory residuary penalty for contravention where no specific penalty is provided",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s16",
+      "title": "CGST Act Section 16 — Eligibility and conditions for taking input tax credit",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-16",
+      "source_type": "act",
+      "version_note": "As amended by the Finance Act, 2022 and Finance Act, 2023",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s29",
+      "title": "CGST Act Section 29 — Cancellation or suspension of registration",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-29",
+      "source_type": "act",
+      "version_note": "Updated with Finance Act amendments",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s39",
+      "title": "CGST Act Section 39 — Furnishing of returns",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-39",
+      "source_type": "act",
+      "version_note": "Statutory provisions governing periodic returns",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s50",
+      "title": "CGST Act Section 50 — Interest on delayed payment of tax",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-50",
+      "source_type": "act",
+      "version_note": "Statutory provisions for interest computation",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s61",
+      "title": "CGST Act Section 61 — Scrutiny of returns",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-61",
+      "source_type": "act",
+      "version_note": "Statutory authority for return scrutiny and discrepancy intimation",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s62",
+      "title": "CGST Act Section 62 — Assessment of non-filers of returns",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-62",
+      "source_type": "act",
+      "version_note": "Best judgment assessment for non-filers following notice under Section 46",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s63",
+      "title": "CGST Act Section 63 — Assessment of unregistered persons",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-63",
+      "source_type": "act",
+      "version_note": "Best judgment assessment for unregistered taxable persons",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s73",
+      "title": "CGST Act Section 73 — Determination of tax not paid or short paid for non-fraud cases",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-73",
+      "source_type": "act",
+      "version_note": "Applies to financial periods prior to FY 2024-25 in non-fraud cases",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74",
+      "title": "CGST Act Section 74 — Determination of tax for fraud, wilful-misstatement, or suppression",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-74",
+      "source_type": "act",
+      "version_note": "Applies to financial periods prior to FY 2024-25 in fraud cases",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74a",
+      "title": "CGST Act Section 74A — Determination of tax for financial year 2024-25 onwards",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-74A",
+      "source_type": "act",
+      "version_note": "Inserted by Finance (No. 2) Act, 2024 effective for FY 2024-25 onwards",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s75",
+      "title": "CGST Act Section 75 — General provisions relating to determination of tax",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-act/section-75",
+      "source_type": "act",
+      "version_note": "Statutory rights to personal hearing and principles of natural justice",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-asmt10",
+      "title": "Form GST ASMT-10 — Notice for intimating discrepancies in return after scrutiny",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-asmt-10",
+      "source_type": "form",
+      "version_note": "Official prescribed form under Rule 99(1) for Section 61 return scrutiny",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-asmt11",
+      "title": "Form GST ASMT-11 — Reply to the notice issued under section 61 intimating discrepancies",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-asmt-11",
+      "source_type": "form",
+      "version_note": "Official prescribed form under Rule 99(2) for reply to ASMT-10",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc01",
+      "title": "Form GST DRC-01 — Summary of Show Cause Notice",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-drc-01",
+      "source_type": "form",
+      "version_note": "Electronic summary of SCN served under Rule 142(1)",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc01a",
+      "title": "Form GST DRC-01A — Intimation of tax ascertained through DRC-01A",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-drc-01a",
+      "source_type": "form",
+      "version_note": "Pre-SCN consultation intimation under Rule 142(1A) and Rule 142(2A)",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc03",
+      "title": "Form GST DRC-03 — Intimation of payment made voluntarily or against SCN",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-drc-03",
+      "source_type": "form",
+      "version_note": "Electronic intimation of payment under Rule 142(2) and Rule 142(3)",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc06",
+      "title": "Form GST DRC-06 — Reply to the Show Cause Notice",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-drc-06",
+      "source_type": "form",
+      "version_note": "Statutory reply format under Rule 142(4) to DRC-01 SCN",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg03",
+      "title": "Form GST REG-03 — Notice for Seeking Additional Information for Registration",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-reg-03",
+      "source_type": "form",
+      "version_note": "Notice under Rule 9(2) seeking clarification on registration application",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg04",
+      "title": "Form GST REG-04 — Clarification/additional information for Registration",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-reg-04",
+      "source_type": "form",
+      "version_note": "Reply under Rule 9(2) to Form GST REG-03",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg17",
+      "title": "Form GST REG-17 — Show Cause Notice for Cancellation of Registration",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-reg-17",
+      "source_type": "form",
+      "version_note": "Notice under Rule 22(1) for Section 29 cancellation of GST registration",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg18",
+      "title": "Form GST REG-18 — Reply to Show Cause Notice for Cancellation of Registration",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/form-gst-reg-18",
+      "source_type": "form",
+      "version_note": "Reply under Rule 22(2) against proposed registration cancellation",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r100",
+      "title": "CGST Rules Rule 100 — Assessment in certain cases",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/rule-100",
+      "source_type": "rule",
+      "version_note": "Orders under Section 62 and Section 63",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r142",
+      "title": "CGST Rules Rule 142 — Notice and order for demand of amounts payable under the Act",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/rule-142",
+      "source_type": "rule",
+      "version_note": "Governs electronic summary in DRC-01, pre-notice intimation in DRC-01A, and reply in DRC-06",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r22",
+      "title": "CGST Rules Rule 22 — Cancellation of registration",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/rule-22",
+      "source_type": "rule",
+      "version_note": "Procedure for show cause notice in REG-17 and reply in REG-18",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r9",
+      "title": "CGST Rules Rule 9 — Verification of the application and approval",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/rule-9",
+      "source_type": "rule",
+      "version_note": "Procedure for verification of registration applications and REG-03 issuance",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r99",
+      "title": "CGST Rules Rule 99 — Scrutiny of returns",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/act-rule/cgst-rules/rule-99",
+      "source_type": "rule",
+      "version_note": "Procedure for discrepancy notice in ASMT-10 and reply in ASMT-11",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "explainer-asmt10",
+      "title": "Practical Explainer: Responding to GST ASMT-10 Return Scrutiny",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/guidance/asmt-10-explainer",
+      "source_type": "explainer",
+      "version_note": "Plain-language non-statutory compliance note",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "explainer-drc01",
+      "title": "Practical Explainer: Defending Show Cause Notices in Form GST DRC-01",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/guidance/drc-01-explainer",
+      "source_type": "explainer",
+      "version_note": "Plain-language non-statutory compliance note",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "explainer-drc01a",
+      "title": "Practical Explainer: Pre-SCN Intimations in Form GST DRC-01A",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/guidance/drc-01a-explainer",
+      "source_type": "explainer",
+      "version_note": "Plain-language non-statutory compliance note",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "explainer-gstr3a",
+      "title": "Practical Explainer: Responding to Return Defaulter Notice Form GSTR-3A",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/guidance/gstr-3a-explainer",
+      "source_type": "explainer",
+      "version_note": "Plain-language non-statutory compliance note",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "explainer-reg03",
+      "title": "Practical Explainer: Clarification on GST Registration in Form GST REG-03",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/guidance/reg-03-explainer",
+      "source_type": "explainer",
+      "version_note": "Plain-language non-statutory compliance note",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    },
+    {
+      "id": "explainer-reg17",
+      "title": "Practical Explainer: Defending Cancellation Notices in Form GST REG-17",
+      "source_url": "https://cbic-gst.gov.in/cbec-portal-ui/guidance/reg-17-explainer",
+      "source_type": "explainer",
+      "version_note": "Plain-language non-statutory compliance note",
+      "retrieved_on": "2026-11-01",
+      "verified": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": "cgst-act-s122#p1",
+      "doc_id": "cgst-act-s122",
+      "section_ref": "Section 122(1)",
+      "content": "Where a taxable person who—\n(i) supplies any goods or services or both without issue of any invoice or issues an incorrect or false invoice with regard to any such supply;\n(ii) issues any invoice or bill without supply of goods or services or both in violation of the provisions of this Act, or the rules made thereunder;\n(iii) takes or utilises input tax credit without actual receipt of goods or services or both either fully or partially, in contravention of the provisions of this Act, or the rules made thereunder;\nhe shall be liable to pay a penalty of ten thousand rupees or an amount equivalent to the tax evaded or the tax not deducted under section 51 or short deducted or deducted but not paid to the Government or tax not collected under section 52 or short collected or collected but not paid to the Government or input tax credit availed of or passed on or distributed irregularly, or the refund claimed fraudulently, whichever is higher.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s125#p1",
+      "doc_id": "cgst-act-s125",
+      "section_ref": "Section 125",
+      "content": "Any person, who contravenes any of the provisions of this Act or any rules made thereunder for which no penalty is separately provided for in this Act, shall be liable to a penalty which may extend to twenty-five thousand rupees.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s16#p1",
+      "doc_id": "cgst-act-s16",
+      "section_ref": "Section 16(1)",
+      "content": "Every registered person shall, subject to such conditions and restrictions as may be prescribed and in the manner specified in section 49, be entitled to take credit of input tax charged on any supply of goods or services or both to him which are used or intended to be used in the course or furtherance of his business and the said amount shall be credited to the electronic credit ledger of such person.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s16#p2",
+      "doc_id": "cgst-act-s16",
+      "section_ref": "Section 16(2)",
+      "content": "Notwithstanding anything contained in this section, no registered person shall be entitled to the credit of any input tax in respect of any supply of goods or services or both to him unless,—\n(a) he is in possession of a tax invoice or debit note issued by a supplier registered under this Act, or such other tax paying documents as may be prescribed;\n(aa) the details of the invoice or debit note referred to in clause (a) has been furnished by the supplier in the statement of outward supplies and such details have been communicated to the recipient of such invoice or debit note in the manner specified under section 38;\n(b) he has received the goods or services or both;\n(ba) the details of input tax credit in respect of the said supply communicated to such registered person under section 38 has not been restricted;\n(c) subject to the provisions of section 41, the tax charged in respect of such supply has been actually paid to the Government, either in cash or through utilisation of input tax credit admissible in respect of the said supply; and\n(d) he has furnished the return under section 39:\n\nProvided that where the goods against an invoice are received in lots or instalments, the registered person shall be entitled to take credit upon receipt of the last lot or instalment:\n\nProvided further that where a recipient fails to pay to the supplier of goods or services or both, other than the supplies on which tax is payable on reverse charge basis, the amount towards the value of supply along with tax payable thereon within a period of one hundred and eighty days from the date of issue of invoice by the supplier, an amount equal to the input tax credit availed by the recipient shall be paid by him along with interest payable under section 50, in such manner as may be prescribed:",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s16#p3",
+      "doc_id": "cgst-act-s16",
+      "section_ref": "Section 16(2)",
+      "content": "Provided also that the recipient shall be entitled to avail of the credit of input tax on payment made by him to the supplier of the amount towards the value of supply of goods or services or both along with tax payable thereon.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s16#p4",
+      "doc_id": "cgst-act-s16",
+      "section_ref": "Section 16(3)",
+      "content": "Where the registered person has claimed depreciation on the tax component of the cost of capital goods and plant and machinery under the provisions of the Income-tax Act, 1961, the input tax credit on the said tax component shall not be allowed.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s16#p5",
+      "doc_id": "cgst-act-s16",
+      "section_ref": "Section 16(4)",
+      "content": "A registered person shall not be entitled to take input tax credit in respect of any invoice or debit note for supply of goods or services or both after the thirtieth day of November following the end of financial year to which such invoice or debit note pertains, or furnishing of the relevant annual return, whichever is earlier.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s29#p1",
+      "doc_id": "cgst-act-s29",
+      "section_ref": "Section 29(1)",
+      "content": "The proper officer may, either on his own motion or on an application filed by the registered person or by his legal heirs, in case of death of such person, cancel the registration, in such manner and within such period as may be prescribed, having regard to the circumstances where,—\n(a) the business has been discontinued, transferred fully for any reason including death of the proprietor, amalgamated with other legal entity, demerged or otherwise disposed of; or\n(b) there is any change in the constitution of the business; or\n(c) the taxable person is no longer liable to be registered under section 22 or section 24:\n\nProvided that during pendency of the proceedings relating to cancellation of registration, the registration may be suspended for such period and in such manner as may be prescribed.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s29#p2",
+      "doc_id": "cgst-act-s29",
+      "section_ref": "Section 29(2)",
+      "content": "The proper officer may cancel the registration of a person from such date, including any retrospective date, as he may deem fit, where,—\n(a) a registered person has contravened such provisions of the Act or the rules made thereunder as may be prescribed; or\n(b) a person paying tax under section 10 has not furnished the return for a financial year beyond three months from the due date of furnishing the said return; or\n(c) any registered person, other than a person specified in clause (b), has not furnished returns for such continuous period as may be prescribed; or\n(d) any person who has taken voluntary registration under sub-section (3) of section 25 has not commenced business within six months from the date of registration; or\n(e) registration has been obtained by means of fraud, wilful misstatement or suppression of facts:\n\nProvided that the proper officer shall not cancel the registration without giving the person an opportunity of being heard:\n\nProvided further that during pendency of the proceedings relating to cancellation of registration, the proper officer may suspend the registration for such period and in such manner as may be prescribed.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s39#p1",
+      "doc_id": "cgst-act-s39",
+      "section_ref": "Section 39(1)",
+      "content": "Every registered person, other than an Input Service Distributor or a non-resident taxable person or a person paying tax under the provisions of section 10 or section 51 or section 52, shall, for every calendar month or part thereof, furnish, a return, electronically, of inward and outward supplies of goods or services or both, input tax credit availed, tax payable, tax paid and such other particulars, in such form and manner, and within such time, as may be prescribed:\n\nProvided that the Government may, on the recommendations of the Council, notify certain class of registered persons who shall furnish a return for every quarter or part thereof, subject to such conditions and restrictions as may be specified therein.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s39#p2",
+      "doc_id": "cgst-act-s39",
+      "section_ref": "Section 39(7)",
+      "content": "Every registered person who is required to furnish a return under sub-section (1), other than the person referred to in the proviso thereto, or sub-section (3) or sub-section (5), shall pay to the Government the tax due as per such return not later than the last date on which he is required to furnish such return:\n\nProvided that every registered person furnishing return under the proviso to sub-section (1) shall pay to the Government, in such form and manner, and within such time, as may be prescribed,—\n(a) an amount equal to the tax due taking into account inward and outward supplies of goods or services or both, input tax credit availed, tax payable and such other particulars during a month; or\n(b) in lieu of the amount referred to in clause (a), an amount determined in such manner and subject to such conditions and restrictions as may be prescribed.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s50#p1",
+      "doc_id": "cgst-act-s50",
+      "section_ref": "Section 50(1)",
+      "content": "Every person who is liable to pay tax in accordance with the provisions of this Act or the rules made thereunder, but fails to pay the tax or any part thereof to the Government within the period prescribed, shall for the period for which the tax or any part thereof remains unpaid, pay, on his own, interest at such rate, not exceeding eighteen per cent., as may be notified by the Government on the recommendations of the Council:\n\nProvided that the interest on tax payable in respect of supplies made during a tax period and declared in the return for the said period furnished after the due date in accordance with the provisions of section 39, except where such return is furnished after commencement of any proceedings under section 73 or section 74 in respect of the said period, shall be payable on that portion of the tax which is paid by debiting the electronic cash ledger.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s50#p2",
+      "doc_id": "cgst-act-s50",
+      "section_ref": "Section 50(3)",
+      "content": "Where the input tax credit has been wrongly availed and utilised, the registered person shall pay interest on such input tax credit wrongly availed and utilised, at such rate not exceeding twenty-four per cent. as may be notified by the Government on the recommendations of the Council, and the interest shall be calculated, in such manner as may be prescribed.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s61#p1",
+      "doc_id": "cgst-act-s61",
+      "section_ref": "Section 61(1)",
+      "content": "The proper officer may scrutinize the return and related particulars furnished by the registered person to verify the correctness of the return and inform him of the discrepancies noticed, if any, in such manner as may be prescribed and seek his explanations thereto.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s61#p2",
+      "doc_id": "cgst-act-s61",
+      "section_ref": "Section 61(2)",
+      "content": "In case the explanation is found acceptable, the registered person shall be informed accordingly and no further action shall be taken in this regard.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s61#p3",
+      "doc_id": "cgst-act-s61",
+      "section_ref": "Section 61(3)",
+      "content": "In case no satisfactory explanation is furnished within a period of thirty days of being informed by the proper officer or such further period as may be permitted by him or where the registered person, after accepting the discrepancies, fails to take the corrective measure in his return for the month in which the discrepancy is accepted, the proper officer may initiate appropriate action including those under section 65 or section 66 or section 67, or proceed to determine the tax and other dues under section 73 or section 74 or section 74A.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s62#p1",
+      "doc_id": "cgst-act-s62",
+      "section_ref": "Section 62(1)",
+      "content": "Notwithstanding anything to the contrary contained in section 73 or section 74 or section 74A, where a registered person fails to furnish the return under section 39 or section 45, even after the service of a notice under section 46, the proper officer may proceed to assess the tax liability of the said person to the best of his judgment taking into account all the relevant material which is available or which he has gathered and issue an assessment order within a period of five years from the date specified under section 44 for furnishing of the annual return for the financial year to which the tax not paid relates.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s62#p2",
+      "doc_id": "cgst-act-s62",
+      "section_ref": "Section 62(2)",
+      "content": "Where the registered person furnishes a valid return within sixty days of the service of the assessment order under sub-section (1), the said assessment order shall be deemed to have been withdrawn but the liability for payment of interest under sub-section (1) of section 50 or for payment of late fee under section 47 shall continue:\n\nProvided that where the registered person fails to furnish a valid return within sixty days of the service of the assessment order under sub-section (1), he may furnish the said return within a further period of sixty days on payment of an additional late fee of one hundred rupees for each day of delay beyond sixty days of the service of the said assessment order, and where such return has been furnished, the said assessment order shall be deemed to have been withdrawn.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s63#p1",
+      "doc_id": "cgst-act-s63",
+      "section_ref": "Section 63",
+      "content": "Notwithstanding anything to the contrary contained in section 73 or section 74 or section 74A, where a taxable person fails to obtain registration even though he is liable to do so or whose registration has been cancelled under sub-section (2) of section 29 but who was liable to pay tax, the proper officer may proceed to assess the tax liability of such taxable person to the best of his judgment for the relevant tax periods and issue an assessment order within a period of five years from the date specified under section 44 for furnishing of the annual return for the financial year to which the tax not paid relates:\n\nProvided that no such assessment order shall be passed without giving a notice to show cause and without giving the person a reasonable opportunity of being heard.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s73#p1",
+      "doc_id": "cgst-act-s73",
+      "section_ref": "Section 73(1)",
+      "content": "Where it appears to the proper officer that any tax has not been paid or short paid or erroneously refunded, or where input tax credit has been wrongly availed or utilised for any reason, other than the reason of fraud or any wilful-misstatement or suppression of facts to evade tax, he shall serve notice on the person chargeable with tax which has not been so paid or which has been so short paid or to whom the refund has erroneously been made, or who has wrongly availed or utilised input tax credit, requiring him to show cause as to why he should not pay the amount specified in the notice along with interest payable thereon under section 50 and a penalty leviable under the provisions of this Act or the rules made thereunder.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s73#p2",
+      "doc_id": "cgst-act-s73",
+      "section_ref": "Section 73(2)",
+      "content": "The proper officer shall issue the notice under sub-section (1) at least three months prior to the time limit specified in sub-section (10) for issuance of order.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s73#p3",
+      "doc_id": "cgst-act-s73",
+      "section_ref": "Section 73(5)",
+      "content": "The person chargeable with tax may, before service of notice under sub-section (1) or, as the case may be, the intimation under sub-section (1A) of rule 142, pay the amount of tax along with interest payable under section 50 of such tax on the basis of his own ascertainment of such tax or the tax as ascertained by the proper officer and inform the proper officer in writing of such payment.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s73#p4",
+      "doc_id": "cgst-act-s73",
+      "section_ref": "Section 73(8)",
+      "content": "Where any person chargeable with tax under sub-section (1) or sub-section (3) pays the said tax along with interest payable under section 50 within thirty days of issue of show cause notice, no penalty shall be payable and all proceedings in respect of the said notice shall be deemed to be concluded.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s73#p5",
+      "doc_id": "cgst-act-s73",
+      "section_ref": "Section 73(9)",
+      "content": "The proper officer shall, after considering the representation, if any, made by person chargeable with tax, determine the amount of tax, interest and a penalty equivalent to ten per cent. of tax or ten thousand rupees, whichever is higher, due from such person and issue an order.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74#p1",
+      "doc_id": "cgst-act-s74",
+      "section_ref": "Section 74(1)",
+      "content": "Where it appears to the proper officer that any tax has not been paid or short paid or erroneously refunded or where input tax credit has been wrongly availed or utilised by reason of fraud, or any wilful-misstatement or suppression of facts to evade tax, he shall serve notice on the person chargeable with tax requiring him to show cause as to why he should not pay the amount specified in the notice along with interest payable thereon under section 50 and a penalty equivalent to the tax specified in the notice.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74#p2",
+      "doc_id": "cgst-act-s74",
+      "section_ref": "Section 74(2)",
+      "content": "The proper officer shall issue the notice under sub-section (1) at least six months prior to the time limit specified in sub-section (10) for issuance of order.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74#p3",
+      "doc_id": "cgst-act-s74",
+      "section_ref": "Section 74(5)",
+      "content": "The person chargeable with tax may, before service of notice under sub-section (1), pay the amount of tax along with interest payable under section 50 and a penalty equivalent to fifteen per cent. of such tax on the basis of his own ascertainment of such tax or the tax as ascertained by the proper officer and inform the proper officer in writing of such payment.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74#p4",
+      "doc_id": "cgst-act-s74",
+      "section_ref": "Section 74(8)",
+      "content": "Where any person chargeable with tax under sub-section (1) pays the said tax along with interest payable under section 50 and a penalty equivalent to twenty-five per cent. of such tax within thirty days of issue of the notice, all proceedings in respect of the said notice shall be deemed to be concluded.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74#p5",
+      "doc_id": "cgst-act-s74",
+      "section_ref": "Section 74(9)",
+      "content": "The proper officer shall, after considering the representation, if any, made by the person chargeable with tax, determine the amount of tax, interest and penalty due from such person and issue an order.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74a#p1",
+      "doc_id": "cgst-act-s74a",
+      "section_ref": "Section 74A(1)",
+      "content": "Where it appears to the proper officer that any tax has not been paid or short paid or erroneously refunded, or where input tax credit has been wrongly availed or utilised for any reason, pertaining to each Financial Year 2024-25 onwards, he shall serve notice on the person chargeable with tax requiring him to show cause as to why he should not pay the amount specified in the notice along with interest payable thereon under section 50 and a penalty leviable under the provisions of this Act or the rules made thereunder.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74a#p2",
+      "doc_id": "cgst-act-s74a",
+      "section_ref": "Section 74A(2)",
+      "content": "The proper officer shall issue the notice under sub-section (1) within a period of forty-two months from the due date for furnishing of annual return for the financial year to which the tax not paid or short paid relates or within forty-two months from the date of erroneous refund.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74a#p3",
+      "doc_id": "cgst-act-s74a",
+      "section_ref": "Section 74A(5)",
+      "content": "The person chargeable with tax may, before service of notice under sub-section (1), pay the amount of tax along with interest payable under section 50 of such tax on the basis of his own ascertainment of such tax or the tax as ascertained by the proper officer and inform the proper officer in writing of such payment.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s74a#p4",
+      "doc_id": "cgst-act-s74a",
+      "section_ref": "Section 74A(8)",
+      "content": "Where any person chargeable with tax under sub-section (1) pays the said tax along with interest payable under section 50 within thirty days of issue of show cause notice, no penalty shall be payable and all proceedings in respect of the said notice shall be deemed to be concluded, except in cases involving fraud, wilful-misstatement or suppression of facts where penalty shall be reduced to fifteen per cent. of such tax.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s75#p1",
+      "doc_id": "cgst-act-s75",
+      "section_ref": "Section 75(4)",
+      "content": "An opportunity of hearing shall be granted where a request is received in writing from the person chargeable with tax or penalty, or where any adverse decision is contemplated against such person.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s75#p2",
+      "doc_id": "cgst-act-s75",
+      "section_ref": "Section 75(5)",
+      "content": "The proper officer shall, if sufficient cause is shown by the person chargeable with tax, grant time to the said person and adjourn the hearing for reasons to be recorded in writing:\n\nProvided that no such adjournment shall be granted for more than three times to a person during the proceedings.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s75#p3",
+      "doc_id": "cgst-act-s75",
+      "section_ref": "Section 75(6)",
+      "content": "The proper officer, in his order, shall set out the relevant facts and the basis of his decision.",
+      "verified": true
+    },
+    {
+      "id": "cgst-act-s75#p4",
+      "doc_id": "cgst-act-s75",
+      "section_ref": "Section 75(7)",
+      "content": "The amount of tax, interest and penalty demanded in the order shall not be in excess of the amount specified in the notice and no demand shall be confirmed on the grounds other than the grounds specified in the notice.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-asmt10#p1",
+      "doc_id": "cgst-form-asmt10",
+      "section_ref": "Form GST ASMT-10",
+      "content": "Reference Number: [Reference Number]\nDate: [Notice Date]\nTo,\nGSTIN: [Taxpayer GSTIN]\nName: [Taxpayer Trade/Legal Name]\nAddress: [Registered Address]\n\nTax Period: [Relevant Financial Period]\nFinancial Year: [Financial Year]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-asmt10#p2",
+      "doc_id": "cgst-form-asmt10",
+      "section_ref": "Form GST ASMT-10",
+      "content": "Subject: Notice for intimating discrepancies in the return after scrutiny under section 61 of the Central Goods and Services Tax Act, 2017.\n\n1. This is to inform you that upon scrutiny of the return furnished by you under section 39 for the tax period referred to above, the discrepancies mentioned in the table below have been noticed.\n2. You are hereby called upon to furnish an explanation for the said discrepancies within a period of thirty days of the service of this notice, or such further period as may be permitted, in FORM GST ASMT-11.\n3. If no explanation is received within the said period, or if the explanation furnished is not found acceptable, further proceedings will be initiated without any further notice in accordance with the provisions of section 65, 66, 67 or section 73 or 74 or 74A of the Act.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-asmt11#p1",
+      "doc_id": "cgst-form-asmt11",
+      "section_ref": "Form GST ASMT-11",
+      "content": "Reference Number of Notice: [Reference Number of ASMT-10]\nDate of Notice: [Notice Date]\nGSTIN: [GSTIN of Taxpayer]\nLegal Name: [Taxpayer Legal Name]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-asmt11#p2",
+      "doc_id": "cgst-form-asmt11",
+      "section_ref": "Form GST ASMT-11",
+      "content": "Subject: Reply to notice issued under section 61 intimating discrepancies in return.\n\n1. Explanation of Discrepancies:\nThe taxpayer provides point-wise reconciliation, documentary explanation, and legal justification for each discrepancy highlighted in FORM GST ASMT-10.\n2. Acceptance and Voluntary Payment (if applicable):\nDetails of discrepancy accepted, tax/interest paid via electronic cash ledger, and payment challan reference numbers (FORM GST DRC-03).\n3. Non-Acceptance of Discrepancy:\nFactual clarification, reconciliation with GSTR-1 / GSTR-2B / GSTR-3B, supplier confirmation certificates, and supporting commercial documents.\n4. Prayer:\nRequest to the proper officer to accept the explanation, conclude proceedings under section 61(2), and issue an order of acceptance in FORM GST ASMT-12.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc01#p1",
+      "doc_id": "cgst-form-drc01",
+      "section_ref": "Form GST DRC-01",
+      "content": "Reference No.: [Reference Number]\nDate: [Notice Date]\nTo,\nGSTIN: [GSTIN]\nName: [Taxpayer Name]\nAddress: [Registered Address]\n\nTax Period: [Period Covered]\nFinancial Year: [Financial Year]\nSection under which Notice is issued: [Section 73(1) / Section 74(1) / Section 74A(1)]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc01#p2",
+      "doc_id": "cgst-form-drc01",
+      "section_ref": "Form GST DRC-01",
+      "content": "1. Brief facts of the case: Summary of audit, inspection, scrutiny, or intelligence findings.\n2. Grounds: Legal provisions alleged to have been violated (e.g. Section 16, Section 29, Section 39).\n3. Tax and other dues:\nTable specifying Tax (CGST, SGST, IGST, Cess), Interest (calculated under section 50), and Penalty (proposed under relevant sections).\n4. Opportunity of Hearing:\nYou are hereby required to file your reply in FORM GST DRC-06 within thirty days from the service of this notice and appear for a personal hearing on the scheduled date and venue if an adverse decision is contemplated.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc01a#p1",
+      "doc_id": "cgst-form-drc01a",
+      "section_ref": "Form GST DRC-01A",
+      "content": "Case Reference: [Reference Number]\nTo,\nGSTIN: [GSTIN]\nName: [Taxpayer Legal Name]\n\n1. It has been ascertained that you have failed to pay or short paid tax or wrongly availed / utilized input tax credit under the relevant provisions of the Act for the tax period [Period].\n2. The grounds on which the tax liability is ascertained are detailed in the annexure.\n3. You are advised to pay the ascertained amount in FORM GST DRC-03 or make submissions in Part B within the advisory period.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc01a#p2",
+      "doc_id": "cgst-form-drc01a",
+      "section_ref": "Form GST DRC-01A",
+      "content": "To the Proper Officer,\nGSTIN: [GSTIN]\nReference Number of Intimation: [Part A Reference Number]\n\n1. Acceptance of liability: Payment of Rs. [Amount] made vide ARN [Challan ARN] in FORM GST DRC-03.\n2. Non-acceptance / Partial acceptance: The grounds on which the ascertained liability is disputed are enumerated herewith along with supporting invoices and documentary evidence.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc03#p1",
+      "doc_id": "cgst-form-drc03",
+      "section_ref": "Form GST DRC-03",
+      "content": "GSTIN: [GSTIN]\nName: [Taxpayer Legal Name]\nAddress: [Registered Office]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc03#p2",
+      "doc_id": "cgst-form-drc03",
+      "section_ref": "Form GST DRC-03",
+      "content": "1. Voluntary payment under section 73(5) / 74(5) / 74A(5).\n2. Payment against intimation in Form GST DRC-01A.\n3. Payment against show cause notice in Form GST DRC-01 within thirty days under section 73(8) / 74(8) / 74A(8).\n4. Payment against audit findings, inspection, or annual return reconciliation.\n\nPayment Particulars:\n- Tax head breakdown (CGST, SGST, IGST, Cess).\n- Interest paid under section 50.\n- Penalty paid (if applicable).\n- Electronic Cash Ledger debit reference number and date.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc06#p1",
+      "doc_id": "cgst-form-drc06",
+      "section_ref": "Form GST DRC-06",
+      "content": "GSTIN: [Taxpayer GSTIN]\nLegal Name: [Taxpayer Legal Name]\nReference No. of SCN: [DRC-01 Reference Number]\nDate of SCN: [DRC-01 Date]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-drc06#p2",
+      "doc_id": "cgst-form-drc06",
+      "section_ref": "Form GST DRC-06",
+      "content": "1. Preliminary Objections: Jurisdiction, limitation period under section 73(10)/74(10)/74A(2), validity of DIN, and statutory compliance.\n2. Reply on Merits: Point-wise rebuttals to allegations raised in SCN, substantiated by invoice listings, bank statements, ledger accounts, and e-way bills.\n3. Statutory Grounds & Precedents: Citations to relevant sections, rules, notifications, circulars, and judicial decisions.\n4. Personal Hearing Request: Request for grant of personal hearing under section 75(4) of the CGST Act before passing any adverse adjudication order.\n5. List of Enclosures: Annexures and documentary evidence relied upon.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg03#p1",
+      "doc_id": "cgst-form-reg03",
+      "section_ref": "Form GST REG-03",
+      "content": "Reference Number: [Application Reference Number ARN]\nDate: [Notice Date]\nTo,\nName of the Applicant: [Applicant Name]\nAddress: [Address]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg03#p2",
+      "doc_id": "cgst-form-reg03",
+      "section_ref": "Form GST REG-03",
+      "content": "Subject: Notice for seeking additional information / clarification / documents relating to application for registration.\n\n1. This has reference to your application for registration filed vide ARN [ARN] dated [Date].\n2. On examination of your application and supporting documents, the following queries / deficiencies have been noticed:\n- Proof of principal place of business (electricity bill, rent agreement, NOC).\n- Identity / address proof of authorized signatory, partners, or directors.\n- Clarification on trade name, constitution, or jurisdiction.\n3. You are required to submit clarification or documents in FORM GST REG-04 within seven working days from the date of receipt of this notice. If no clarification is received within the specified period, your application is liable to be rejected without further notice.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg04#p1",
+      "doc_id": "cgst-form-reg04",
+      "section_ref": "Form GST REG-04",
+      "content": "Reference No. of Notice: [REG-03 Reference Number]\nDate of Notice: [Notice Date]\nApplication Reference Number (ARN): [ARN]\nName of the Applicant: [Applicant Name]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg04#p2",
+      "doc_id": "cgst-form-reg04",
+      "section_ref": "Form GST REG-04",
+      "content": "1. Response to Queries Raised in REG-03: Point-wise clarification addressing each specific query raised by the proper officer regarding business premises, legal status, or documentation.\n2. List of Documents Uploaded:\n- Validated rent deed, lease agreement, or property tax receipt.\n- No Objection Certificate (NOC) from property owner.\n- Identity and address verification documents.\n- Bank statement or cancelled cheque.\n3. Prayer: Request to accept clarification and approve grant of GST registration.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg17#p1",
+      "doc_id": "cgst-form-reg17",
+      "section_ref": "Form GST REG-17",
+      "content": "Reference Number: [Reference Number]\nDate: [Notice Date]\nTo,\nGSTIN: [GSTIN]\nName: [Taxpayer Trade/Legal Name]\nAddress: [Address]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg17#p2",
+      "doc_id": "cgst-form-reg17",
+      "section_ref": "Form GST REG-17",
+      "content": "Subject: Show Cause Notice for Cancellation of Registration under section 29 of the Central Goods and Services Tax Act, 2017.\n\nWhereas on the basis of information available in this office, you have:\n1. Failed to furnish returns for a continuous period of six months (or three consecutive tax periods for quarterly filers); OR\n2. Conducted business from a place other than the declared principal place of business; OR\n3. Obtained registration by means of fraud, wilful misstatement or suppression of facts; OR\n4. Issued invoices without supply of underlying goods or services in violation of Act.\n\nYou are hereby called upon to show cause within a period of seven working days from the date of service of this notice as to why your registration should not be cancelled. You are directed to file your reply in FORM GST REG-18 and appear for a personal hearing before the undersigned.",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg18#p1",
+      "doc_id": "cgst-form-reg18",
+      "section_ref": "Form GST REG-18",
+      "content": "GSTIN: [Taxpayer GSTIN]\nLegal Name: [Taxpayer Legal Name]\nReference No. of Notice: [REG-17 Reference Number]\nDate of Notice: [Notice Date]",
+      "verified": true
+    },
+    {
+      "id": "cgst-form-reg18#p2",
+      "doc_id": "cgst-form-reg18",
+      "section_ref": "Form GST REG-18",
+      "content": "Subject: Reply to show cause notice for cancellation of registration.\n\n1. Factual Submissions:\nExplanation of why the grounds alleged in REG-17 are unfounded or have been rectified.\nWhere non-filing of returns was alleged, details of all pending returns furnished and associated taxes, interest, and late fees paid.\nWhere place of business verification was disputed, proof of genuine business activity, electricity bills, GST signboard photos, and geo-tagged site images.\n2. Hardship and Legal Precedents:\nCancellation of registration causes irreversible business disruption, deprivation of livelihood, and prevents compliance.\n3. Prayer:\nRequest to drop the proposed cancellation proceedings and issue an order in FORM GST REG-20 revoking suspension and restoring registration.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r100#p1",
+      "doc_id": "cgst-rule-r100",
+      "section_ref": "Rule 100(1)",
+      "content": "The order of assessment made under sub-section (1) of section 62 shall be issued in FORM GST ASMT-13 and a summary thereof shall be uploaded electronically in FORM GST DRC-07.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r100#p2",
+      "doc_id": "cgst-rule-r100",
+      "section_ref": "Rule 100(2)",
+      "content": "The proper officer shall issue a notice to a taxable person in accordance with the provisions of section 63 in FORM GST ASMT-14 containing the grounds on which the assessment is proposed to be made on best judgment basis and after considering the representation, if any, made by such person, pass an order in FORM GST ASMT-15 and a summary thereof shall be uploaded electronically in FORM GST DRC-07.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r142#p1",
+      "doc_id": "cgst-rule-r142",
+      "section_ref": "Rule 142(1)",
+      "content": "The proper officer shall, along with the notice issued under section 52 or section 73 or section 74 or section 74A or section 76 or section 122 or section 123 or section 124 or section 125 or section 127 or section 129 or section 130, serve a summary thereof electronically in FORM GST DRC-01.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r142#p2",
+      "doc_id": "cgst-rule-r142",
+      "section_ref": "Rule 142(1A)",
+      "content": "The proper officer may, before service of notice to the person chargeable with tax, interest and penalty, under sub-section (1) of section 73 or sub-section (1) of section 74 or sub-section (1) of section 74A, communicate the details of any tax, interest and penalty as ascertained by the said officer, in Part A of FORM GST DRC-01A.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r142#p3",
+      "doc_id": "cgst-rule-r142",
+      "section_ref": "Rule 142(2)",
+      "content": "Where, before the service of notice or statement, the person chargeable with tax makes payment of the tax and interest in accordance with the provisions of sub-section (5) of section 73 or, as the case may be, tax, interest and penalty in accordance with the provisions of sub-section (5) of section 74 or sub-section (5) of section 74A, or where a person makes payment of tax, interest and penalty under sub-section (8) of section 73 or sub-section (8) of section 74 or sub-section (8) of section 74A, he shall inform the proper officer of such payment in FORM GST DRC-03 and the proper officer shall issue an acknowledgement, accepting the payment made by the said person in FORM GST DRC-04.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r142#p4",
+      "doc_id": "cgst-rule-r142",
+      "section_ref": "Rule 142(2A)",
+      "content": "The person to whom details of tax, interest and penalty are communicated under sub-rule (1A) may apply in Part B of FORM GST DRC-01A, either making partial payment or making submissions against the proposed liability.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r142#p5",
+      "doc_id": "cgst-rule-r142",
+      "section_ref": "Rule 142(4)",
+      "content": "The representation referred to in sub-section (9) of section 73 or sub-section (9) of section 74 or sub-section (9) of section 74A or sub-section (3) of section 76 or section 122 or section 125 shall be in FORM GST DRC-06.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r22#p1",
+      "doc_id": "cgst-rule-r22",
+      "section_ref": "Rule 22(1)",
+      "content": "Where the proper officer has reasons to believe that the registration of a person is liable to be cancelled under section 29, he shall issue a notice to such person in FORM GST REG-17, requiring him to show cause, within a period of seven working days from the date of the service of the notice, as to why his registration shall not be cancelled.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r22#p2",
+      "doc_id": "cgst-rule-r22",
+      "section_ref": "Rule 22(2)",
+      "content": "The reply to the show cause notice issued under sub-rule (1) shall be furnished in FORM REG-18 within the period specified in the said sub-rule.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r22#p3",
+      "doc_id": "cgst-rule-r22",
+      "section_ref": "Rule 22(3)",
+      "content": "Where a person who has been served a notice under sub-rule (1) fails to reply to the said notice within seven working days, or where the proper officer is not satisfied with the reply, the proper officer shall pass an order in FORM GST REG-19 cancelling the registration within a period of thirty days from the date of reply or seven working days from the date of service of notice.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r22#p4",
+      "doc_id": "cgst-rule-r22",
+      "section_ref": "Rule 22(4)",
+      "content": "The reply to the show cause notice shall be accompanied by the explanation and evidence, and where the proper officer is satisfied that the person is no longer liable to have his registration cancelled, he shall drop the proceedings and pass an order in FORM GST REG-20.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r9#p1",
+      "doc_id": "cgst-rule-r9",
+      "section_ref": "Rule 9(1)",
+      "content": "The application shall be forwarded to the proper officer who shall examine the application and the accompanying documents and if the same are found to be in order, approve the grant of registration to the applicant within a period of seven working days from the date of submission of the application.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r9#p2",
+      "doc_id": "cgst-rule-r9",
+      "section_ref": "Rule 9(2)",
+      "content": "Where the application submitted under rule 8 is found to be deficient, either in terms of information or any document required to be furnished under the said rule, or where the proper officer requires any clarification with regard to any information provided in the application or documents furnished therewith, he may issue a notice to the applicant electronically in FORM GST REG-03 within a period of seven working days from the date of submission of the application and the applicant shall furnish such clarification, information or documents electronically, in FORM GST REG-04, within a period of seven working days from the date of the receipt of such notice.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r99#p1",
+      "doc_id": "cgst-rule-r99",
+      "section_ref": "Rule 99(1)",
+      "content": "Where any return furnished by a registered person is selected for scrutiny, the proper officer shall scrutinize the same in accordance with the provisions of section 61 with reference to the information available with him, and in case of any discrepancy, he shall issue a notice to the said person in FORM GST ASMT-10, informing him of such discrepancy and seeking his explanation thereto within such time, not exceeding thirty days from the date of service of the notice, or such further period as may be permitted by him and also, where possible, quantifying the amount of tax, interest and any other amount payable in relation to such discrepancy.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r99#p2",
+      "doc_id": "cgst-rule-r99",
+      "section_ref": "Rule 99(2)",
+      "content": "The registered person may accept the discrepancy mentioned in the notice issued under sub-rule (1), and pay the tax, interest and any other amount arising from such discrepancy and inform the same or furnish an explanation for the discrepancy in FORM GST ASMT-11 to the proper officer.",
+      "verified": true
+    },
+    {
+      "id": "cgst-rule-r99#p3",
+      "doc_id": "cgst-rule-r99",
+      "section_ref": "Rule 99(3)",
+      "content": "Where the explanation furnished by the registered person or the information submitted under sub-rule (2) is found by the proper officer to be acceptable, the proper officer shall inform him accordingly in FORM GST ASMT-12.",
+      "verified": true
+    },
+    {
+      "id": "explainer-asmt10#p1",
+      "doc_id": "explainer-asmt10",
+      "section_ref": "Non-Statutory Guidance Notice",
+      "content": "*Notice: This explainer is practical informational guidance for businesses and compliance professionals and does not constitute statutory text or official legal advice.*",
+      "verified": true
+    },
+    {
+      "id": "explainer-asmt10#p2",
+      "doc_id": "explainer-asmt10",
+      "section_ref": "Form GST ASMT-10",
+      "content": "1. Nature of the Notice: Form GST ASMT-10 is an exploratory discrepancy intimation issued under Section 61 and Rule 99. It is NOT an assessment order or a final tax demand.\n2. Common Causes: Typical discrepancies arise from differences between outward supplies declared in GSTR-1 and GSTR-3B, or differences in Input Tax Credit (ITC) between GSTR-2A/2B and GSTR-3B.\n3. Response Form and Deadline: The taxpayer must reply within 30 calendar days from the date of service using Form GST ASMT-11 on the GST Portal.\n4. Consequences of Inaction: If no reply is filed or if the explanation is unsatisfactory, the officer can escalate by initiating audit (Section 65) or issuing a formal Show Cause Notice (Section 73, 74, or 74A).",
+      "verified": true
+    },
+    {
+      "id": "explainer-drc01#p1",
+      "doc_id": "explainer-drc01",
+      "section_ref": "Form GST DRC-01",
+      "content": "*Notice: This explainer is practical informational guidance for businesses and chartered accountants and does not constitute statutory text or official legal advice.*",
+      "verified": true
+    },
+    {
+      "id": "explainer-drc01#p2",
+      "doc_id": "explainer-drc01",
+      "section_ref": "Form GST DRC-01",
+      "content": "1. Nature of the Notice: Form GST DRC-01 is a formal Show Cause Notice proposing adjudication of tax liability, mandatory interest under Section 50, and penalties under Section 73, 74, or 74A.\n2. Statutory Timeframe: The taxpayer has 30 days from the date of service to file a point-wise response in Form GST DRC-06.\n3. Amnesty on Early Payment: In non-fraud matters under Section 73, if tax and interest are paid within 30 days of the SCN, penalty is entirely waived and proceedings conclude. Under Section 74 (fraud), penalty is reduced to 25% if paid within 30 days. Under Section 74A (FY 2024-25 onwards), penalty is completely waived for timely payment within 30 days in non-fraud cases.\n4. Crucial Safeguard: Always demand an opportunity for Personal Hearing under Section 75(4) before any adverse order is confirmed.",
+      "verified": true
+    },
+    {
+      "id": "explainer-drc01a#p1",
+      "doc_id": "explainer-drc01a",
+      "section_ref": "Form GST DRC-01A",
+      "content": "*Notice: This explainer is practical informational guidance for taxpayers and consultants and does not constitute statutory text or official legal advice.*",
+      "verified": true
+    },
+    {
+      "id": "explainer-drc01a#p2",
+      "doc_id": "explainer-drc01a",
+      "section_ref": "Form GST DRC-01A",
+      "content": "1. Nature of the Intimation: Form GST DRC-01A is an advance intimation of tax liability ascertained by the proper officer before issuing a formal Show Cause Notice, issued under Rule 142(1A).\n2. Objective: To promote voluntary dispute resolution, avoid protracted litigation, and give the taxpayer a chance to explain or settle dues without high penalty exposure.\n3. Response Options:\n- Agree and Pay: Make voluntary payment using Form GST DRC-03.\n- Disagree or Partial Disagreement: File detailed factual explanations and rebuttals in Part B of Form GST DRC-01A.\n4. Window: No rigid statutory days window is mandated by statute; check the specific date mentioned on the face of the notice.",
+      "verified": true
+    },
+    {
+      "id": "explainer-gstr3a#p1",
+      "doc_id": "explainer-gstr3a",
+      "section_ref": "Non-Statutory Guidance Notice",
+      "content": "*Notice: This explainer is practical informational guidance for taxpayers and accountants and does not constitute statutory text or official legal advice.*",
+      "verified": true
+    },
+    {
+      "id": "explainer-gstr3a#p2",
+      "doc_id": "explainer-gstr3a",
+      "section_ref": "Key Points for Notice in Form GSTR-3A",
+      "content": "1. Purpose: Issued under Section 46 and Rule 68 when a registered taxpayer fails to furnish periodic returns (GSTR-3B, GSTR-1, GSTR-4, or GSTR-9) by the statutory due date.\n2. Compliance Window: 15 days from the date of the notice.\n3. Required Remedy: Unlike ASMT-10 or DRC-01 where a letter is drafted, the mandatory legal remedy for GSTR-3A is to file the overdue GST return along with applicable late fees under Section 47 and interest under Section 50.\n4. Consequence of Failure: If returns are not filed within 15 days, the proper officer can proceed to Best Judgment Assessment under Section 62, estimating liability and issuing an ex-parte demand in Form GST ASMT-13.",
+      "verified": true
+    },
+    {
+      "id": "explainer-reg03#p1",
+      "doc_id": "explainer-reg03",
+      "section_ref": "Form GST REG-03",
+      "content": "*Notice: This explainer is practical informational guidance for businesses and does not constitute statutory text or official legal advice.*",
+      "verified": true
+    },
+    {
+      "id": "explainer-reg03#p2",
+      "doc_id": "explainer-reg03",
+      "section_ref": "Form GST REG-03",
+      "content": "1. Purpose: Issued under Rule 9(2) when the registration officer seeks additional documents or clarifications on a new GST application.\n2. Deadline Rule: The taxpayer must file clarification in Form GST REG-04 within exactly 7 WORKING DAYS (skipping Saturdays, Sundays, and gazetted holidays) from the date of receipt.\n3. Common Reasons: Discrepant electricity bill, lack of owner NOC, name mismatch with PAN database, or non-upload of authorized signatory resolution.\n4. Consequence of Missing Deadline: Automatic rejection of the application without further communication.",
+      "verified": true
+    },
+    {
+      "id": "explainer-reg17#p1",
+      "doc_id": "explainer-reg17",
+      "section_ref": "Form GST REG-17",
+      "content": "*Notice: This explainer is practical informational guidance for taxpayers and CAs and does not constitute statutory text or official legal advice.*",
+      "verified": true
+    },
+    {
+      "id": "explainer-reg17#p2",
+      "doc_id": "explainer-reg17",
+      "section_ref": "Form GST REG-17",
+      "content": "1. Severity Level: CRITICAL. This is a show cause notice proposing cancellation of the taxpayer's GSTIN under Section 29(2) and Rule 22(1).\n2. Strict Tolling: Reply must be submitted in Form GST REG-18 within 7 WORKING DAYS from the date of service.\n3. Common Grounds: Continuous non-filing of returns for 6 months (or 3 quarters for QRMP filers), premises found locked during physical verification, or suspected bill trading without underlying supplies.\n4. Immediate Action Required: File all pending returns with late fees immediately, gather physical evidence of genuine business at the registered address (geotagged photos, electricity bills, lease), and request revocation of suspension.",
+      "verified": true
+    }
+  ],
+  "generated_at": "2026-11-01T01:18:45.663Z"
+}

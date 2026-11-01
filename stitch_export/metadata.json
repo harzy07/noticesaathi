@@ -1,0 +1,6 @@
+{
+  "name": "NoticeVault - Enterprise Notice Intake",
+  "description": "Enterprise legal, regulatory, and statutory notice intake, automated deadline calculation, risk assessment, and response management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,17 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans, JetBrains_Mono, Noto_Sans_Devanagari } from "next/font/google";
 import "./globals.css";
 import { DisclaimerBanner } from "@/components/disclaimer-banner";
 import { Toaster } from "@/components/ui/toast";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-mono",
   subsets: ["latin"],
+  display: "swap",
+});
+
+const notoSansDevanagari = Noto_Sans_Devanagari({
+  variable: "--font-hindi",
+  subsets: ["devanagari"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -28,9 +37,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${plusJakartaSans.variable} ${jetbrainsMono.variable} ${notoSansDevanagari.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 font-sans">
         <DisclaimerBanner />
         <div className="flex-1 flex flex-col">{children}</div>
         <Toaster />

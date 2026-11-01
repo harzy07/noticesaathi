@@ -28,8 +28,39 @@
 - Human review: Confirmed dedicated directory `D:\noticesaathi`.
 - Issues the agent got wrong and how we caught them: Phase prompt included placeholder `[PASTE THE SQL SCHEMA FROM SECTION 4 OF THE BUILD PACK HERE]`; agent located the official build pack PDF in user downloads to extract the exact schema verbatim without inventing any fields.
 
+### Phase 1B: API Contract & Realistic Fixtures (2026-11-01T02:46:00+05:30 to 2026-11-01T02:55:00+05:30)
+- Goal: Freeze the interface between backend and UI with Zod schemas, TypeScript types, and realistic screen-state fixtures.
+- Prompt given: [docs/prompts/phase-1b.md](./prompts/phase-1b.md)
+- What the agent produced:
+  - `contracts/types.ts`: Zod schemas and inferred types for `Notice`, `Extraction`, `Deadline`, `Analysis`, `Draft`, `SourceChunk`, `NoticeResponse`, `ApiError`, and request/response shapes for all seven API routes.
+  - Companion `NoticeResponse.parse()` helper for runtime parsing.
+  - 8 realistic screen-state fixtures in `contracts/fixtures/`: `processing-extracting.json`, `processing-drafting.json`, `done-asmt10.json`, `done-drc01.json`, `done-low-confidence.json`, `done-deadline-mismatch.json`, `done-other-type.json`, and `failed.json`.
+  - Fixtures feature fictional taxpayers/GSTINs, Devanagari Hindi summaries, exactly 4 `[ADD: ...]` placeholders per draft, `[[chunk_id]]` citations, and complete referenced `sources` maps.
+  - Validation test script `scripts/validate-fixtures.ts` executed via `npm run validate-fixtures`.
+  - Documentation `docs/CONTRACT.md` detailing status-to-stepper mapping, nullability, citation rules, error format, and additive-only change policy.
+- Human review: Verified all fixture UUIDs follow RFC 4122 v4 format and verified every citation chunk ID maps directly into the fixture sources map.
+- Issues the agent got wrong and how we caught them: Initial fixture UUIDs had non-standard variant digits failing `z.string().uuid()`; caught by `validate-fixtures.ts` and corrected to compliant RFC 4122 v4 identifiers.
+
+### Milestone 1: UI Inventory, Scaffolding, and Plan (2026-11-01T03:50:00+05:30 to 2026-11-01T06:26:00+05:30)
+- Goal: Inventory the Google Stitch UI export, extract design system tokens, map all screens to API fields, configure project scripts, and set up directory structure.
+- Prompt given: [docs/prompts/master.md](./prompts/master.md)
+- What the agent produced:
+  - Extracted `d:\noticevault---enterprise-notice-intake.zip` into `d:\noticesaathi\stitch_export` and preserved the original design tree.
+  - Authored `docs/PLAN.md` covering the 8-milestone roadmap with Mermaid architecture diagram.
+  - Authored `docs/UI_MAP.md` mapping every screen (`NoticeIntakeScreen`, `ActiveDocketScreen`, `NoticeDossierScreen`, `ResponseFilingScreen`, `StatutoryCalendarScreen`, `TopNavigation`) to Next.js routes and API fields.
+  - Extracted fonts (`Plus Jakarta Sans`, `JetBrains Mono`, `Noto Sans Devanagari`) and color tokens into Next.js App Router layout (`src/app/layout.tsx`) and Tailwind theme (`src/app/globals.css`).
+  - Added npm scripts to `package.json` (`ingest`, `eval`, `contract-check`, `try-notice`).
+  - Installed `dotenv` for standalone scripts and initialized `src/mocks/index.ts` and `src/lib/pipeline`.
+  - Updated `tsconfig.json` and `eslint.config.mjs` to properly scope Next.js app while archiving the Stitch export.
+  - Verified `typecheck`, `test`, `lint`, and `build` all pass cleanly.
+- Human review: Verified UI map covers all required routes and data fields.
+- What you were unsure about: None; the Stitch export cleanly mapped to the required Next.js pages.
+- What a human must verify: Browser rendering of Plus Jakarta Sans and Noto Sans Devanagari fonts on local dev.
+
 ## 4. Prompt library
 - Phase 1: [docs/prompts/phase-1.md](./prompts/phase-1.md)
+- Phase 1B: [docs/prompts/phase-1b.md](./prompts/phase-1b.md)
+- Master: [docs/prompts/master.md](./prompts/master.md)
 
 ## 5. Verification and guardrails
 - Automated typechecking: `npm run typecheck` (`tsc --noEmit`)

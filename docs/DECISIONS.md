@@ -20,3 +20,13 @@
   2. Configured 768-dimension vectors for `kb_chunks.embedding` with HNSW cosine distance index (`vector_cosine_ops`).
   3. Added generated `tsv` tsvector column with GIN indexing for hybrid keyword retrieval.
   4. Configured private storage bucket `notice-uploads` via `storage.buckets` insert with `on conflict do nothing`.
+
+## ADR 003: API Contract & UI Isolation
+- **Date**: 2026-11-01
+- **Status**: Accepted
+- **Context**: Need to freeze the backend-frontend contract to allow parallel frontend development against realistic fixtures without waiting for AI models or live database ingestion.
+- **Decisions**:
+  1. Centralized all contracts and schemas in `contracts/types.ts` with companion runtime parse helper `NoticeResponse.parse()`.
+  2. Created 8 screen-state fixtures in `contracts/fixtures/` capturing all pipeline states (processing, done variants, low confidence, deadline mismatch, out-of-scope, failed).
+  3. Enforced strict RFC 4122 v4 UUID compliance and complete source chunk mapping in `scripts/validate-fixtures.ts`.
+  4. Contract changes after freeze are strictly additive-only.

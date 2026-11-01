@@ -8,7 +8,12 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "ingest": "tsx scripts/ingest-kb.ts",
+    "eval": "tsx evals/run.ts",
+    "contract-check": "tsx scripts/contract-check.ts",
+    "try-notice": "tsx scripts/try-notice.ts",
+    "validate-fixtures": "tsx scripts/validate-fixtures.ts"
   },
   "dependencies": {
     "@google/genai": "^2.32.0",
@@ -33,9 +38,11 @@
     "@types/node": "^22.20.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^18.0.9",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "vitest": "^5.0.5"
   }

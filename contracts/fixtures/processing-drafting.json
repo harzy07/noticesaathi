@@ -1,0 +1,147 @@
+{
+  "notice": {
+    "id": "d2b3c4d5-e6f7-4b8c-9d0e-1f2a3b4c5d6e",
+    "session_id": "sess_demo_anon_002",
+    "client_name": "Apex Tooling Solutions",
+    "file_path": "notices/d2b3c4d5-e6f7-4b8c-9d0e-1f2a3b4c5d6e/notice.pdf",
+    "file_mime": "application/pdf",
+    "status": "drafting",
+    "error": null,
+    "created_at": "2026-11-01T02:05:00.000Z"
+  },
+  "extraction": {
+    "notice_id": "d2b3c4d5-e6f7-4b8c-9d0e-1f2a3b4c5d6e",
+    "data": {
+      "notice_type": "ASMT-10",
+      "type_confidence": 0.98,
+      "gstin": "27AABCA1234D1ZM",
+      "taxpayer_name": "Apex Tooling Solutions Pvt Ltd",
+      "issuing_office": "Office of the Assistant Commissioner, Ward 104, Mumbai",
+      "reference_number": "GST/MH/WARD104/ASMT10/2026/9021",
+      "notice_date": "2026-10-15",
+      "reply_due_date": "2026-11-14",
+      "financial_period": "2023-24",
+      "sections_cited": ["Section 61", "Section 16(2)"],
+      "amount_demanded": {
+        "tax": 142500,
+        "interest": 18200,
+        "penalty": 0,
+        "total": 160700,
+        "currency": "INR"
+      },
+      "alleged_issues": [
+        {
+          "issue": "Input Tax Credit claimed in GSTR-3B exceeds ITC available in GSTR-2B by Rs. 1,42,500/-",
+          "evidence_quote": "ITC claimed in Table 4(A)(5) exceeds inward supply auto-populated in GSTR-2B",
+          "page": 1
+        }
+      ],
+      "documents_requested": [
+        "Inward tax invoices for disputed suppliers",
+        "Bank payment proof showing consideration paid within 180 days",
+        "GSTR-2B vs GSTR-3B reconciliation statement"
+      ],
+      "language_detected": "en",
+      "legibility": "good",
+      "field_confidence": {
+        "notice_date": 0.99,
+        "reply_due_date": 0.98,
+        "amount_demanded": 0.96
+      }
+    },
+    "model": "gemini-2.5-flash",
+    "latency_ms": 1450
+  },
+  "deadline": {
+    "computed_due_date": "2026-11-14",
+    "printed_due_date": "2026-11-14",
+    "reply_form": "ASMT-11",
+    "days_remaining": 13,
+    "is_estimate": false,
+    "window_basis": "from date of service of notice",
+    "mismatch_flag": false,
+    "warning": null
+  },
+  "analysis": {
+    "notice_id": "d2b3c4d5-e6f7-4b8c-9d0e-1f2a3b4c5d6e",
+    "summary_en": "You have received an ASMT-10 notice regarding scrutiny of your GST returns for financial year 2023-24. The proper officer has observed a discrepancy where your claimed Input Tax Credit in GSTR-3B is higher than the tax shown in your GSTR-2B statement by Rs. 1,42,500. This is an intimation of discrepancies under Section 61, not a final demand order. You must submit your explanation in Form GST ASMT-11 within 30 days. If the discrepancy is reconciled with proper invoices and payment receipts, proceedings will be dropped without penalties.",
+    "summary_hi": "आपको वित्तीय वर्ष 2023-24 के जीएसटी रिटर्न की जांच के लिए फॉर्म ASMT-10 में एक नोटिस प्राप्त हुआ है। कर अधिकारी ने पाया है कि आपके द्वारा GSTR-3B में दावा किया गया इनपुट टैक्स क्रेडिट (ITC), GSTR-2B में दिखाई गई राशि से ₹1,42,500 अधिक है। यह धारा 61 के तहत विसंगतियों की एक पूर्व सूचना है, कोई अंतिम मांग आदेश नहीं है। आपको 30 दिनों के भीतर फॉर्म GST ASMT-11 में अपना स्पष्टीकरण प्रस्तुत करना होगा। यदि आप आपूर्तिकर्ता के इनवॉइस और भुगतान प्रमाण प्रस्तुत कर देते हैं, तो यह कार्यवाही बिना किसी जुर्माने के समाप्त हो जाएगी।",
+    "severity": "medium",
+    "severity_reason": "Intimation of discrepancy under Section 61 with no fraud allegation and 30-day statutory reply window.",
+    "what_they_want": [
+      "Reconcile difference between GSTR-3B Table 4(A)(5) and GSTR-2B.",
+      "Submit copies of supplier tax invoices and e-way bills.",
+      "File explanation in Form GST ASMT-11 before the due date."
+    ],
+    "checklist": [
+      {
+        "item": "GSTR-2B vs GSTR-3B ITC reconciliation spreadsheet",
+        "why": "Demonstrates specific invoice matching and explains timing differences [[cgst-rules-r99#p1]].",
+        "source_ids": ["cgst-rules-r99#p1"]
+      },
+      {
+        "item": "Copies of tax invoices and e-way bills for disputed suppliers",
+        "why": "Establishes possession of valid tax invoices under Section 16(2)(a) [[cgst-act-s16#p2]].",
+        "source_ids": ["cgst-act-s16#p2"]
+      },
+      {
+        "item": "Bank statements highlighting supplier payment settlement",
+        "why": "Proves consideration payment within statutory 180 days [[cgst-act-s16#p2]].",
+        "source_ids": ["cgst-act-s16#p2"]
+      }
+    ],
+    "action_plan": [
+      {
+        "step": "Download GSTR-2B json/excel and compare with purchase register",
+        "due_date": "2026-11-05",
+        "owner": "accountant"
+      },
+      {
+        "step": "Collect supplier confirmation letters for late reported invoices",
+        "due_date": "2026-11-09",
+        "owner": "taxpayer"
+      },
+      {
+        "step": "Finalize draft ASMT-11 reply letter and submit on GST portal",
+        "due_date": "2026-11-13",
+        "owner": "CA"
+      }
+    ],
+    "citations": [
+      {
+        "chunk_id": "cgst-rules-r99#p1",
+        "label": "Rule 99(1) Scrutiny of Returns",
+        "quote_snippet": "The proper officer shall inform the registered person of discrepancies noticed in Form GST ASMT-10 seeking explanation within thirty days."
+      },
+      {
+        "chunk_id": "cgst-act-s16#p2",
+        "label": "Section 16(2) Eligibility and Conditions for Taking ITC",
+        "quote_snippet": "No registered person shall be entitled to the credit of any input tax unless he is in possession of a tax invoice or debit note."
+      }
+    ],
+    "validation": {
+      "total": 2,
+      "verified": 2,
+      "dropped": []
+    }
+  },
+  "draft": null,
+  "sources": {
+    "cgst-rules-r99#p1": {
+      "id": "cgst-rules-r99#p1",
+      "doc_id": "cgst-rules-r99",
+      "section_ref": "Rule 99(1)",
+      "content": "Where any return furnished by a registered person is selected for scrutiny, the proper officer shall scrutinize the same with reference to the information available with him, and in case of any discrepancy, he shall issue a notice to the said person in FORM GST ASMT-10, informing him of such discrepancy and seeking his explanation thereto within such time, not exceeding thirty days from the date of service of the notice.",
+      "source_url": "https://cbic-gst.gov.in/rules.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-act-s16#p2": {
+      "id": "cgst-act-s16#p2",
+      "doc_id": "cgst-act-s16",
+      "section_ref": "Section 16(2)",
+      "content": "Notwithstanding anything contained in this section, no registered person shall be entitled to the credit of any input tax in respect of any supply of goods or services or both to him unless (a) he is in possession of a tax invoice or debit note issued by a supplier registered under this Act; (b) he has received the goods or services or both; (c) the tax charged has been paid to the Government; and (d) he has furnished the return under section 39.",
+      "source_url": "https://cbic-gst.gov.in/cgt-act.html",
+      "retrieved_on": "2026-10-31"
+    }
+  }
+}

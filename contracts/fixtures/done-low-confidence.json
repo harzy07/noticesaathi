@@ -1,0 +1,148 @@
+{
+  "notice": {
+    "id": "b3c4d5e6-f7a8-4b9c-8d1e-2f3a4b5c6d7e",
+    "session_id": "sess_demo_anon_005",
+    "client_name": "Modern Hardware Stores",
+    "file_path": "notices/b3c4d5e6-f7a8-4b9c-8d1e-2f3a4b5c6d7e/blurry_scan.jpg",
+    "file_mime": "image/jpeg",
+    "status": "done",
+    "error": null,
+    "created_at": "2026-11-01T02:20:00.000Z"
+  },
+  "extraction": {
+    "notice_id": "b3c4d5e6-f7a8-4b9c-8d1e-2f3a4b5c6d7e",
+    "data": {
+      "notice_type": "ASMT-10",
+      "type_confidence": 0.82,
+      "gstin": "07AABCS1429B1Z2",
+      "taxpayer_name": "Modern Hardware Stores",
+      "issuing_office": "Department of Trade & Taxes, Ward 63, New Delhi",
+      "reference_number": "F.NO.GST/DL/W63/2026/1089",
+      "notice_date": "2026-10-05",
+      "reply_due_date": "2026-11-04",
+      "financial_period": "2023-24",
+      "sections_cited": ["Section 61", "Rule 99"],
+      "amount_demanded": {
+        "tax": 85000,
+        "interest": 0,
+        "penalty": 0,
+        "total": 85000,
+        "currency": "INR"
+      },
+      "alleged_issues": [
+        {
+          "issue": "Discrepancy in GSTR-1 vs GSTR-3B tax payment for October 2023",
+          "evidence_quote": "Tax reported in GSTR-1 exceeds tax discharged through cash and credit in GSTR-3B by Rs 85,000",
+          "page": 1
+        }
+      ],
+      "documents_requested": [
+        "Challan copies and DRC-03 receipts",
+        "Form GST ASMT-11 reply"
+      ],
+      "language_detected": "en",
+      "legibility": "poor",
+      "field_confidence": {
+        "notice_date": 0.52,
+        "reply_due_date": 0.48,
+        "amount_demanded": 0.65
+      }
+    },
+    "model": "gemini-2.5-flash",
+    "latency_ms": 1980
+  },
+  "deadline": {
+    "computed_due_date": "2026-11-04",
+    "printed_due_date": "2026-11-04",
+    "reply_form": "ASMT-11",
+    "days_remaining": 3,
+    "is_estimate": false,
+    "window_basis": "from date of service of notice",
+    "mismatch_flag": false,
+    "warning": null
+  },
+  "analysis": {
+    "notice_id": "b3c4d5e6-f7a8-4b9c-8d1e-2f3a4b5c6d7e",
+    "summary_en": "You have received an ASMT-10 scrutiny letter regarding tax paid for October 2023. The officer alleges that outward tax declared in GSTR-1 was higher than the amount paid in GSTR-3B by Rs. 85,000. Please note that several extracted fields from this scan have low confidence due to blurry text. You should carefully verify the notice date and demanded amount against your physical paper copy before submitting. Under Rule 99, this notice requires an explanation in Form GST ASMT-11 within 30 days. Demonstrating that the tax was paid in subsequent returns or through Form DRC-03 will satisfy the query.",
+    "summary_hi": "आपको अक्टूबर 2023 के कर भुगतान के संबंध में फॉर्म ASMT-10 में जांच सूचना प्राप्त हुई है। अधिकारी का कहना है कि GSTR-1 में घोषित कर, GSTR-3B में चुकाए गए कर से ₹85,000 अधिक था। कृपया ध्यान दें कि धुंधले स्कैन के कारण नोटिस की तारीख और राशि जैसे कुछ विवरणों पर कम सटीकता दर्ज की गई है; कृपया अपने मूल दस्तावेज से इनकी पुष्टि अवश्य करें। नियम 99 के तहत, इसका जवाब 30 दिनों में फॉर्म GST ASMT-11 में दिया जाना चाहिए। यदि यह कर अगले महीने या DRC-03 के माध्यम से भर दिया गया है, तो उसकी रसीद संलग्न करें।",
+    "severity": "medium",
+    "severity_reason": "Low legibility scan of ASMT-10 notice with possible Rs. 85,000 liability requiring human verification of dates and figures.",
+    "what_they_want": [
+      "Confirm actual notice date and demand amount from original paper copy.",
+      "Explain the variance of Rs. 85,000 between GSTR-1 and GSTR-3B.",
+      "Submit reply in Form GST ASMT-11."
+    ],
+    "checklist": [
+      {
+        "item": "GSTR-1 and GSTR-3B monthly tax summary sheet for FY 2023-24",
+        "why": "Verifies whether short payment was rectified in next return [[cgst-rules-r99#p1]].",
+        "source_ids": ["cgst-rules-r99#p1"]
+      },
+      {
+        "item": "Payment challan or Form GST DRC-03 acknowledgement",
+        "why": "Proves discharge of liability under Section 61 [[cgst-act-s61#p1]].",
+        "source_ids": ["cgst-act-s61#p1"]
+      }
+    ],
+    "action_plan": [
+      {
+        "step": "Verify scanned values against the original paper notice",
+        "due_date": "2026-11-02",
+        "owner": "taxpayer"
+      },
+      {
+        "step": "Retrieve DRC-03 voluntary payment receipt or next month return challan",
+        "due_date": "2026-11-03",
+        "owner": "accountant"
+      },
+      {
+        "step": "Submit reply in Form GST ASMT-11 on portal",
+        "due_date": "2026-11-04",
+        "owner": "CA"
+      }
+    ],
+    "citations": [
+      {
+        "chunk_id": "cgst-act-s61#p1",
+        "label": "Section 61 Scrutiny of Returns",
+        "quote_snippet": "The proper officer may scrutinize the return to verify the correctness of the return and inform him of the discrepancies noticed."
+      },
+      {
+        "chunk_id": "cgst-rules-r99#p1",
+        "label": "Rule 99(1) Scrutiny Notice",
+        "quote_snippet": "In case of any discrepancy, he shall issue a notice to the said person in FORM GST ASMT-10 seeking his explanation thereto within thirty days."
+      }
+    ],
+    "validation": {
+      "total": 2,
+      "verified": 2,
+      "dropped": []
+    }
+  },
+  "draft": {
+    "id": "c4d5e6f7-a8b9-4c0d-8e2f-3a4b5c6d7e8f",
+    "notice_id": "b3c4d5e6-f7a8-4b9c-8d1e-2f3a4b5c6d7e",
+    "version": 1,
+    "body_md": "# REPLY TO SCRUTINY INTIMATION (FORM GST ASMT-11)\n\n**To:**\nThe Proper Officer / Assistant Commissioner,\nWard 63, Department of Trade & Taxes,\nNew Delhi\n\n**Subject:** Reply to Form GST ASMT-10 Notice Ref: F.NO.GST/DL/W63/2026/1089 dated 05-10-2026\n\n**GSTIN:** 07AABCS1429B1Z2  \n**Taxpayer Name:** Modern Hardware Stores  \n**Tax Period:** October 2023  \n\n---\n\nRespected Sir,\n\n### 1. Verification of Notice Particulars\nWith reference to notice in Form GST ASMT-10 issued under Section 61 [[cgst-act-s61#p1]] read with Rule 99 [[cgst-rules-r99#p1]], we hereby submit our explanation within the 30-day timeline.\n\n### 2. Explanation Regarding Difference in GSTR-1 and GSTR-3B\n1. It is submitted that the alleged discrepancy of Rs. 85,000/- was due to an inadvertent clerical entry during the preparation of GSTR-1 [ADD: Specific invoice number and date mistakenly reported twice].\n2. The actual taxable supplies and corresponding tax liability were correctly computed and discharged in full [ADD: Exact tax amount paid and challan CIN number].\n3. Furthermore, any residual differential tax along with applicable interest was paid voluntarily [ADD: Form GST DRC-03 ARN and date of payment].\n4. There is no loss caused to the revenue, and the tax stands fully realized by the Government exchequer.\n\n### 3. Prayer\nIn view of the above clarification and compliance under Rule 99 [[cgst-rules-r99#p1]], we request your good office to:\na) Accept the explanation and issue an order of acceptance in Form GST ASMT-12;\nb) Drop further proceedings in the matter.\n\n---\n\n### 4. Enclosures\n1. Form GST DRC-03 payment receipt.\n2. Inward and outward sales reconciliation register.\n3. Copy of monthly bank statement.\n4. [ADD: Affidavit / CA Certificate explaining the clerical error].\n\nYours faithfully,\n\nFor **Modern Hardware Stores**\n\n\n\n__________________________________  \n**Proprietor / Authorized Signatory**  \nDate: [Date of Reply Submission]",
+    "instructions": null,
+    "created_at": "2026-11-01T02:21:00.000Z"
+  },
+  "sources": {
+    "cgst-act-s61#p1": {
+      "id": "cgst-act-s61#p1",
+      "doc_id": "cgst-act-s61",
+      "section_ref": "Section 61",
+      "content": "The proper officer may scrutinize the return and related particulars furnished by the registered person to verify the correctness of the return and inform him of the discrepancies noticed, if any, in such manner as may be prescribed and seek his explanation thereto.",
+      "source_url": "https://cbic-gst.gov.in/cgt-act.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-rules-r99#p1": {
+      "id": "cgst-rules-r99#p1",
+      "doc_id": "cgst-rules-r99",
+      "section_ref": "Rule 99(1)",
+      "content": "Where any return furnished by a registered person is selected for scrutiny, the proper officer shall scrutinize the same with reference to the information available with him, and in case of any discrepancy, he shall issue a notice to the said person in FORM GST ASMT-10, informing him of such discrepancy and seeking his explanation thereto within such time, not exceeding thirty days from the date of service of the notice.",
+      "source_url": "https://cbic-gst.gov.in/rules.html",
+      "retrieved_on": "2026-10-31"
+    }
+  }
+}

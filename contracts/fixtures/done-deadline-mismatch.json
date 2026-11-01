@@ -1,0 +1,148 @@
+{
+  "notice": {
+    "id": "c5d6e7f8-a9b0-4c1d-8e3f-4a5b6c7d8e9f",
+    "session_id": "sess_demo_anon_006",
+    "client_name": "Zenith Pharma Logistics",
+    "file_path": "notices/c5d6e7f8-a9b0-4c1d-8e3f-4a5b6c7d8e9f/asmt10_mismatch.pdf",
+    "file_mime": "application/pdf",
+    "status": "done",
+    "error": null,
+    "created_at": "2026-11-01T02:25:00.000Z"
+  },
+  "extraction": {
+    "notice_id": "c5d6e7f8-a9b0-4c1d-8e3f-4a5b6c7d8e9f",
+    "data": {
+      "notice_type": "ASMT-10",
+      "type_confidence": 0.97,
+      "gstin": "33AABCT9988C1Z4",
+      "taxpayer_name": "Zenith Pharma Logistics Pvt Ltd",
+      "issuing_office": "Office of the Assistant Commissioner, Circle VI, Chennai",
+      "reference_number": "GST/TN/CH6/ASMT-10/2026/3044",
+      "notice_date": "2026-10-03",
+      "reply_due_date": "2026-10-22",
+      "financial_period": "2023-24",
+      "sections_cited": ["Section 61", "Rule 99"],
+      "amount_demanded": {
+        "tax": 320000,
+        "interest": 0,
+        "penalty": 0,
+        "total": 320000,
+        "currency": "INR"
+      },
+      "alleged_issues": [
+        {
+          "issue": "Discrepancy in GSTR-3B non-taxable inward supplies vs GSTR-2B reverse charge reporting",
+          "evidence_quote": "Reverse charge tax payable in Table 3.1(d) is short by Rs 3,20,000 as per supplier GSTR-1 declarations",
+          "page": 1
+        }
+      ],
+      "documents_requested": [
+        "Transporter payment records and RCM liability calculation",
+        "Form GST ASMT-11"
+      ],
+      "language_detected": "en",
+      "legibility": "good",
+      "field_confidence": {
+        "notice_date": 0.98,
+        "reply_due_date": 0.97,
+        "amount_demanded": 0.95
+      }
+    },
+    "model": "gemini-2.5-flash",
+    "latency_ms": 1410
+  },
+  "deadline": {
+    "computed_due_date": "2026-11-02",
+    "printed_due_date": "2026-10-22",
+    "reply_form": "ASMT-11",
+    "days_remaining": -10,
+    "is_estimate": false,
+    "window_basis": "from date of service of notice",
+    "mismatch_flag": true,
+    "warning": "Printed reply deadline (2026-10-22) is shorter than the statutory 30-day window under Rule 99 (2026-11-02). We recommend submitting by the printed date while explicitly citing statutory entitlement."
+  },
+  "analysis": {
+    "notice_id": "c5d6e7f8-a9b0-4c1d-8e3f-4a5b6c7d8e9f",
+    "summary_en": "You have received an ASMT-10 notice regarding reverse charge liability (RCM) on freight and goods transport for FY 2023-24. The officer calculated a variance of Rs. 3,20,000 between supplier GSTR-1 filings and your GSTR-3B Table 3.1(d). Critical notice: The officer has demanded a reply by 2026-10-22 (only 19 days), whereas Rule 99 of the CGST Rules guarantees a 30-day explanation period ending 2026-11-02. This is an intimation of discrepancy rather than an adjudication order. You should submit your Form ASMT-11 promptly, highlighting both the RCM payment proof and the statutory 30-day window.",
+    "summary_hi": "आपको वित्तीय वर्ष 2023-24 के लिए माल परिवहन (GTA) पर रिवर्स चार्ज मैकेनिज्म (RCM) के संबंध में ASMT-10 नोटिस प्राप्त हुआ है। अधिकारी ने आपके GSTR-3B और आपूर्तिकर्ता के विवरण में ₹3,20,000 की विसंगति बताई है। महत्वपूर्ण चेतावनी: अधिकारी ने केवल 19 दिनों का समय देकर 2026-10-22 तक जवाब मांगा है, जबकि सीजीएसटी नियम 99 के तहत कानूनन 30 दिनों का समय (2026-11-02 तक) दिया जाना अनिवार्य है। यह केवल एक स्क्रूटनी सूचना है, कोई अंतिम मांग आदेश नहीं है। आपको फॉर्म ASMT-11 में अपना जवाब दाखिल करते समय 30 दिन के कानूनी अधिकार का उल्लेख करते हुए आरसीएम भुगतान चालान प्रस्तुत करना चाहिए।",
+    "severity": "high",
+    "severity_reason": "Deadline mismatch: officer gave 19 days instead of the statutory 30-day period under Rule 99 for a Rs. 3,20,000 RCM claim.",
+    "what_they_want": [
+      "Explain the difference in reverse charge tax of Rs. 3,20,000.",
+      "Submit transporter consignment notes and payment vouchers.",
+      "Reply in Form GST ASMT-11."
+    ],
+    "checklist": [
+      {
+        "item": "GTA consignment notes and self-invoices issued under Section 31(3)(f)",
+        "why": "Establishes accurate RCM liability computation [[cgst-rules-r99#p1]].",
+        "source_ids": ["cgst-rules-r99#p1"]
+      },
+      {
+        "item": "Payment challan evidencing cash discharge of RCM liability",
+        "why": "Confirms payment of tax in cash as required under Section 61 [[cgst-act-s61#p1]].",
+        "source_ids": ["cgst-act-s61#p1"]
+      }
+    ],
+    "action_plan": [
+      {
+        "step": "Reconcile transport ledger with GSTR-3B Table 3.1(d)",
+        "due_date": "2026-10-20",
+        "owner": "accountant"
+      },
+      {
+        "step": "Draft response invoking the 30-day statutory window under Rule 99(1)",
+        "due_date": "2026-10-21",
+        "owner": "CA"
+      },
+      {
+        "step": "File Form GST ASMT-11 with challans on GST common portal",
+        "due_date": "2026-10-22",
+        "owner": "taxpayer"
+      }
+    ],
+    "citations": [
+      {
+        "chunk_id": "cgst-act-s61#p1",
+        "label": "Section 61 Scrutiny of Returns",
+        "quote_snippet": "The proper officer may scrutinize the return to verify the correctness of the return and inform him of the discrepancies noticed."
+      },
+      {
+        "chunk_id": "cgst-rules-r99#p1",
+        "label": "Rule 99(1) Statutory 30-Day Window",
+        "quote_snippet": "In case of any discrepancy, he shall issue a notice in FORM GST ASMT-10 seeking explanation within such time, not exceeding thirty days."
+      }
+    ],
+    "validation": {
+      "total": 2,
+      "verified": 2,
+      "dropped": []
+    }
+  },
+  "draft": {
+    "id": "d6e7f8a9-b0c1-4d2e-8f4a-5b6c7d8e9f0a",
+    "notice_id": "c5d6e7f8-a9b0-4c1d-8e3f-4a5b6c7d8e9f",
+    "version": 1,
+    "body_md": "# FORMAL REPLY TO FORM GST ASMT-10\n\n**To:**\nThe Assistant Commissioner of State Tax,\nCircle VI, Chennai Commissionerate,\nTamil Nadu\n\n**Subject:** Reply to Notice for Intimation of Discrepancies in Form GST ASMT-10 Ref: GST/TN/CH6/ASMT-10/2026/3044 dated 03-10-2026\n\n**GSTIN:** 33AABCT9988C1Z4  \n**Taxpayer Name:** Zenith Pharma Logistics Pvt Ltd  \n**Tax Period:** FY 2023-24  \n\n---\n\nRespected Officer,\n\n### 1. Statutory Timeline & Preliminary Submission\nWe refer to the notice issued under Section 61 [[cgst-act-s61#p1]] read with Rule 99(1) of the CGST Rules, 2017 [[cgst-rules-r99#p1]]. We note that the notice specifies a response deadline of 22-10-2026, granting an explanation period of nineteen days. While we submit this factual clarification with utmost promptness, it is respectfully brought to your kind attention that Rule 99(1) [[cgst-rules-r99#p1]] affords thirty days to furnish an explanation, which matures on 02-11-2026.\n\n### 2. Explanation Regarding Reverse Charge Liability\n**Alleged Discrepancy:** Short payment of reverse charge liability in Table 3.1(d) of Form GSTR-3B amounting to Rs. 3,20,000/-.\n\n**Factual Submissions:**\n1. The taxpayer is engaged in pharmaceutical logistics and avails services of Goods Transport Agencies (GTA). For the relevant financial year, GST liability under reverse charge was correctly ascertained and discharged through cash ledger [ADD: Total GTA freight paid and tax discharged in cash].\n2. Certain inward consignment notes pertained to transport of exempted pharmaceutical formulations not liable to GST [ADD: List of exempted drug consignments and relevant notification numbers].\n3. Full discharge of tax with relevant challan identification numbers is enclosed in our detailed statement [ADD: Challan CIN numbers and date of debit].\n4. There is no suppression or evasion of tax on part of the taxpayer.\n\n### 3. Prayer\nIn light of the factual records and statutory compliance [[cgst-rules-r99#p1]], we pray that:\na) The discrepancy be dropped and Form GST ASMT-12 be issued;\nb) If any ambiguity remains, an extension up to the full statutory 30-day period (02-11-2026) and a personal hearing be granted.\n\n---\n\n### 4. Enclosures\n1. RCM liability calculation sheet.\n2. Inward GTA consignment notes.\n3. Cash ledger tax payment challans.\n4. [ADD: CA certificate verifying freight turnover and exemption applicability].\n\nYours faithfully,\n\nFor **Zenith Pharma Logistics Pvt Ltd**\n\n\n\n__________________________________  \n**Director / Authorized Signatory**  \nDate: [Date of Submission]",
+    "instructions": null,
+    "created_at": "2026-11-01T02:26:00.000Z"
+  },
+  "sources": {
+    "cgst-act-s61#p1": {
+      "id": "cgst-act-s61#p1",
+      "doc_id": "cgst-act-s61",
+      "section_ref": "Section 61",
+      "content": "The proper officer may scrutinize the return and related particulars furnished by the registered person to verify the correctness of the return and inform him of the discrepancies noticed, if any, in such manner as may be prescribed and seek his explanation thereto.",
+      "source_url": "https://cbic-gst.gov.in/cgt-act.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-rules-r99#p1": {
+      "id": "cgst-rules-r99#p1",
+      "doc_id": "cgst-rules-r99",
+      "section_ref": "Rule 99(1)",
+      "content": "Where any return furnished by a registered person is selected for scrutiny, the proper officer shall scrutinize the same with reference to the information available with him, and in case of any discrepancy, he shall issue a notice to the said person in FORM GST ASMT-10, informing him of such discrepancy and seeking his explanation thereto within such time, not exceeding thirty days from the date of service of the notice.",
+      "source_url": "https://cbic-gst.gov.in/rules.html",
+      "retrieved_on": "2026-10-31"
+    }
+  }
+}

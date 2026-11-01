@@ -1,0 +1,88 @@
+{
+  "notice": {
+    "id": "e7f8a9b0-c1d2-4e3f-8a6b-7c8d9e0f1a2b",
+    "session_id": "sess_demo_anon_007",
+    "client_name": "Royal Hospitality Group",
+    "file_path": "notices/e7f8a9b0-c1d2-4e3f-8a6b-7c8d9e0f1a2b/audit_summons.pdf",
+    "file_mime": "application/pdf",
+    "status": "done",
+    "error": null,
+    "created_at": "2026-11-01T02:30:00.000Z"
+  },
+  "extraction": {
+    "notice_id": "e7f8a9b0-c1d2-4e3f-8a6b-7c8d9e0f1a2b",
+    "data": {
+      "notice_type": "OTHER",
+      "type_confidence": 0.35,
+      "gstin": "19AABCR8102M1ZP",
+      "taxpayer_name": "Royal Hospitality Group LLP",
+      "issuing_office": "Directorate General of GST Intelligence (DGGI), Kolkata",
+      "reference_number": "DGGI/KZU/INV/2026/SUMM/441",
+      "notice_date": "2026-10-18",
+      "reply_due_date": "2026-11-02",
+      "financial_period": "2021-22 to 2024-25",
+      "sections_cited": ["Section 70", "Section 67"],
+      "amount_demanded": {
+        "tax": 0,
+        "interest": 0,
+        "penalty": 0,
+        "total": 0,
+        "currency": "INR"
+      },
+      "alleged_issues": [
+        {
+          "issue": "Summons to give evidence and produce books of account under Section 70 of CGST Act",
+          "evidence_quote": "You are hereby summoned to appear in person or by authorized representative with original ledger accounts",
+          "page": 1
+        }
+      ],
+      "documents_requested": [
+        "Books of accounts and trial balance",
+        "Bank account statements for all accounts"
+      ],
+      "language_detected": "en",
+      "legibility": "good",
+      "field_confidence": {
+        "notice_date": 0.95,
+        "reply_due_date": 0.92,
+        "amount_demanded": 0.9
+      }
+    },
+    "model": "gemini-2.5-flash",
+    "latency_ms": 1320
+  },
+  "deadline": null,
+  "analysis": {
+    "notice_id": "e7f8a9b0-c1d2-4e3f-8a6b-7c8d9e0f1a2b",
+    "summary_en": "You have received a Summons issued under Section 70 of the CGST Act from the Directorate General of GST Intelligence (DGGI). This is an investigative summons requiring personal appearance or document submission, not a standard scrutiny or demand notice (such as ASMT-10 or DRC-01). Because this notice type falls outside standard notice categories, NoticeSaathi will not generate an automated draft reply. We strongly recommend consulting a qualified Chartered Accountant or GST advocate immediately to represent you and prepare your formal documentation.",
+    "summary_hi": "आपको महानिदेशालय जीएसटी खुफिया (DGGI) से सीजीएसटी अधिनियम की धारा 70 के तहत एक सम्मन (Summons) प्राप्त हुआ है। यह जांच के तहत साक्ष्य देने या बहीखाता प्रस्तुत करने का एक सम्मन है, यह कोई सामान्य स्क्रूटनी या मांग नोटिस (जैसे ASMT-10 या DRC-01) नहीं है। क्योंकि यह नोटिस प्रकार हमारे मानक नोटिस नियमों के दायरे से बाहर है, NoticeSaathi इसके लिए स्वचालित ड्राफ्ट पत्र तैयार नहीं करेगा। हम आपको तुरंत किसी योग्य चार्टर्ड अकाउंटेंट (CA) या जीएसटी विशेषज्ञ से परामर्श करने की दृढ़ता से सलाह देते हैं।",
+    "severity": "critical",
+    "severity_reason": "Investigative summons under Section 70 from DGGI requiring immediate legal representation.",
+    "what_they_want": [
+      "Appear before the investigating officer on the appointed date.",
+      "Produce requested books of account and banking statements.",
+      "Engage an experienced CA or legal counsel immediately."
+    ],
+    "checklist": [],
+    "action_plan": [
+      {
+        "step": "Immediately contact your Chartered Accountant with copy of summons",
+        "due_date": "2026-10-20",
+        "owner": "taxpayer"
+      },
+      {
+        "step": "Prepare authorization letter / Vakalatnama for authorized representative",
+        "due_date": "2026-10-25",
+        "owner": "CA"
+      }
+    ],
+    "citations": [],
+    "validation": {
+      "total": 0,
+      "verified": 0,
+      "dropped": []
+    }
+  },
+  "draft": null,
+  "sources": {}
+}

@@ -1,0 +1,167 @@
+{
+  "notice": {
+    "id": "a1d2e3f4-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
+    "session_id": "sess_demo_anon_004",
+    "client_name": "Kalyan Textiles",
+    "file_path": "notices/a1d2e3f4-b5c6-4d7e-8f9a-0b1c2d3e4f5a/drc01_notice.pdf",
+    "file_mime": "application/pdf",
+    "status": "done",
+    "error": null,
+    "created_at": "2026-11-01T02:15:00.000Z"
+  },
+  "extraction": {
+    "notice_id": "a1d2e3f4-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
+    "data": {
+      "notice_type": "DRC-01",
+      "type_confidence": 0.99,
+      "gstin": "24AAEFK4312Q1ZX",
+      "taxpayer_name": "Kalyan Textiles Trading LLP",
+      "issuing_office": "Office of the Deputy Commissioner, Sector 4, Surat",
+      "reference_number": "GST/GJ/SURAT/DRC-01/2026/4109",
+      "notice_date": "2026-10-12",
+      "reply_due_date": "2026-11-11",
+      "financial_period": "2022-23",
+      "sections_cited": ["Section 73", "Section 50", "Rule 142"],
+      "amount_demanded": {
+        "tax": 580000,
+        "interest": 98600,
+        "penalty": 58000,
+        "total": 736600,
+        "currency": "INR"
+      },
+      "alleged_issues": [
+        {
+          "issue": "Under-reporting of outward taxable turnover in Form GSTR-3B compared with e-Way Bill generated turnover",
+          "evidence_quote": "Outward taxable value declared in GSTR-3B Table 3.1(a) is short by Rs. 32,22,222 yielding differential tax of Rs. 5,80,000",
+          "page": 2
+        }
+      ],
+      "documents_requested": [
+        "Reconciliation between e-way bills and outward sales invoices",
+        "Audited balance sheet and profit & loss account for FY 2022-23",
+        "Form GST DRC-06 reply"
+      ],
+      "language_detected": "en",
+      "legibility": "good",
+      "field_confidence": {
+        "notice_date": 0.99,
+        "reply_due_date": 0.98,
+        "amount_demanded": 0.99
+      }
+    },
+    "model": "gemini-2.5-flash",
+    "latency_ms": 1520
+  },
+  "deadline": {
+    "computed_due_date": "2026-11-11",
+    "printed_due_date": "2026-11-11",
+    "reply_form": "DRC-06",
+    "days_remaining": 10,
+    "is_estimate": false,
+    "window_basis": "from date of service of notice",
+    "mismatch_flag": false,
+    "warning": null
+  },
+  "analysis": {
+    "notice_id": "a1d2e3f4-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
+    "summary_en": "You have received a formal Show Cause Notice in Form GST DRC-01 under Section 73 of the CGST Act for financial year 2022-23. The tax authority alleges that your outward turnover reported in GSTR-3B is lower than your e-Way Bill generated values, demanding differential tax of Rs. 5,80,000 along with applicable interest under Section 50 and 10% penalty. This is a substantive demand notice requiring a formal legal defence. Under Rule 142(4), your response must be filed in Form GST DRC-06 within 30 days. Factual explanations detailing cancelled e-way bills or non-sales transport movements must be substantiated with documentary logs.",
+    "summary_hi": "आपको वित्तीय वर्ष 2022-23 के लिए सीजीएसटी अधिनियम की धारा 73 के तहत फॉर्म GST DRC-01 में कारण बताओ नोटिस (Show Cause Notice) प्राप्त हुआ है। कर विभाग का आरोप है कि आपके GSTR-3B में घोषित बिक्री कारोबार (Turnover), ई-वे बिल के कुल मूल्य से कम है, जिसके आधार पर ₹5,80,000 का कर, धारा 50 के तहत ब्याज और ₹58,000 का जुर्माना मांगा गया है। यह एक गंभीर मांग नोटिस है जिसका औपचारिक कानूनी जवाब देना अनिवार्य है। नियम 142(4) के तहत आपको 30 दिनों के भीतर फॉर्म GST DRC-06 में अपना उत्तर देना होगा। रद्द किए गए ई-वे बिल और गैर-बिक्री स्टॉक ट्रांसफर के प्रमाण प्रस्तुत करके इस मांग का समाधान किया जा सकता है।",
+    "severity": "high",
+    "severity_reason": "Formal Show Cause Notice under Section 73 with tax demand of Rs. 5,80,000, interest, and statutory penalty.",
+    "what_they_want": [
+      "Show cause why differential tax of Rs. 5,80,000 should not be demanded under Section 73(1).",
+      "Pay interest under Section 50 and penalty under Section 73(9).",
+      "Submit written reply in Form GST DRC-06 within 30 days."
+    ],
+    "checklist": [
+      {
+        "item": "e-Way Bill portal report vs GSTR-1 & GSTR-3B reconciliation",
+        "why": "Explains cancelled e-way bills and consignment notes [[cgst-rules-r142#p1]].",
+        "source_ids": ["cgst-rules-r142#p1"]
+      },
+      {
+        "item": "Proof of cancelled delivery challans and transport rejections",
+        "why": "Establishes non-supply movements that did not constitute taxable supplies [[cgst-act-s73#p1]].",
+        "source_ids": ["cgst-act-s73#p1"]
+      },
+      {
+        "item": "Stock transfer / job-work delivery challans",
+        "why": "Proves that transportation was for job work under Section 143 and not sales [[cgst-act-s73#p1]].",
+        "source_ids": ["cgst-act-s73#p1"]
+      }
+    ],
+    "action_plan": [
+      {
+        "step": "Identify all cancelled, duplicate, or job-work e-way bills for FY 2022-23",
+        "due_date": "2026-11-04",
+        "owner": "accountant"
+      },
+      {
+        "step": "Compile CA audited reconciliation certifying taxable supplies",
+        "due_date": "2026-11-08",
+        "owner": "CA"
+      },
+      {
+        "step": "Submit formal defence in Form GST DRC-06 and attend personal hearing",
+        "due_date": "2026-11-10",
+        "owner": "taxpayer"
+      }
+    ],
+    "citations": [
+      {
+        "chunk_id": "cgst-act-s73#p1",
+        "label": "Section 73(1) Determination of Tax Not Paid",
+        "quote_snippet": "Where it appears to the proper officer that any tax has not been paid or short paid, he shall serve notice on the person chargeable with tax requiring him to show cause."
+      },
+      {
+        "chunk_id": "cgst-act-s73#p9",
+        "label": "Section 73(9) Order and Penalty",
+        "quote_snippet": "The proper officer, after considering the representation, if any, made by the person chargeable with tax, shall determine the amount of tax, interest and a penalty equivalent to ten per cent."
+      },
+      {
+        "chunk_id": "cgst-rules-r142#p1",
+        "label": "Rule 142(4) Reply to Show Cause Notice",
+        "quote_snippet": "The representation referred to in sub-section (9) of section 73 or sub-section (9) of section 74 shall be in FORM GST DRC-06."
+      }
+    ],
+    "validation": {
+      "total": 3,
+      "verified": 3,
+      "dropped": []
+    }
+  },
+  "draft": {
+    "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+    "notice_id": "a1d2e3f4-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
+    "version": 1,
+    "body_md": "# REPLY TO SHOW CAUSE NOTICE UNDER SECTION 73 (FORM GST DRC-06)\n\n**To:**\nThe Deputy Commissioner,\nSector 4, Surat Commissionerate,\nGujarat\n\n**Subject:** Reply to Show Cause Notice issued under Section 73 in Form GST DRC-01 bearing Ref: GST/GJ/SURAT/DRC-01/2026/4109 dated 12-10-2026\n\n**GSTIN:** 24AAEFK4312Q1ZX  \n**Taxpayer Name:** Kalyan Textiles Trading LLP  \n**Financial Year:** 2022-23  \n\n---\n\nRespected Sir,\n\n### 1. Preliminary Submissions\n1. At the outset, the noticee denies all allegations, proposed tax demands of Rs. 5,80,000/-, interest under Section 50, and penalty proposed under Section 73(9) [[cgst-act-s73#p9]] as erroneous and unsustainable in law and on facts.\n2. This representation in Form GST DRC-06 is submitted within the thirty-day limitation window pursuant to Rule 142(4) of the CGST Rules, 2017 [[cgst-rules-r142#p1]].\n\n### 2. Detailed Defence on Alleged Turnover Variance\n**Allegation:** Under-reporting of outward supplies in GSTR-3B by Rs. 32,22,222/- when compared with e-Way bill generated values.\n\n**Noticee's Submissions:**\n1. It is submitted that e-Way bills generated do not equate to taxable supplies per se. As contemplated under the scheme of Section 73(1) [[cgst-act-s73#p1]], tax liability arises solely on supplies within the meaning of Section 7.\n2. During FY 2022-23, certain e-Way bills were generated for movements involving job-work and inter-branch transfers that did not involve any taxable outward consideration [ADD: List of delivery challan numbers and job-worker registration details].\n3. Furthermore, multiple e-Way bills were cancelled within the portal window due to vehicle breakdowns and order cancellations [ADD: Cancelled e-Way bill numbers and corresponding credit note entries].\n4. All genuine outward sales have been duly declared in Form GSTR-1 and discharge of tax was fully accounted for in Form GSTR-3B [ADD: CA audited turnover reconciliation certificate reference].\n\n### 3. Non-Applicability of Penalty\nSince the noticee has not short-paid tax with any willful intention, the levy of penalty under Section 73(9) [[cgst-act-s73#p9]] is wholly unwarranted.\n\n### 4. Prayer\nIn view of the above submissions, the noticee respectfully prays:\na) That the proposed demand of tax, interest, and penalty under Section 73 [[cgst-act-s73#p1]] be dropped in toto;\nb) That an order in Form GST DRC-05 concluding the proceedings be issued;\nc) That a personal hearing be granted before passing any adverse adjudication order.\n\n---\n\n### 5. Enclosures\n1. Reconciliation table between e-Way Bills and GSTR-3B turnover.\n2. Job-work delivery challans and transport consignment notes.\n3. Log of cancelled e-Way bills.\n4. [ADD: Bank statements and audited financial statements for FY 2022-23].\n\nYours faithfully,\n\nFor **Kalyan Textiles Trading LLP**\n\n\n\n__________________________________  \n**Designated Partner / Authorized Signatory**  \nDate: [Date of Reply Submission]",
+    "instructions": null,
+    "created_at": "2026-11-01T02:16:00.000Z"
+  },
+  "sources": {
+    "cgst-act-s73#p1": {
+      "id": "cgst-act-s73#p1",
+      "doc_id": "cgst-act-s73",
+      "section_ref": "Section 73(1)",
+      "content": "Where it appears to the proper officer that any tax has not been paid or short paid or erroneously refunded, or where input tax credit has been wrongly availed or utilised for any reason, other than the reason of fraud or any wilful-misstatement or suppression of facts to evade tax, he shall serve notice on the person chargeable with tax which has not been so paid or which has been short paid or to whom the refund has erroneously been made, or who has wrongly availed or utilised input tax credit, requiring him to show cause as to why he should not pay the amount specified in the notice along with interest payable thereon under section 50 and a penalty leviable under the provisions of this Act or the rules made thereunder.",
+      "source_url": "https://cbic-gst.gov.in/cgt-act.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-act-s73#p9": {
+      "id": "cgst-act-s73#p9",
+      "doc_id": "cgst-act-s73",
+      "section_ref": "Section 73(9)",
+      "content": "The proper officer shall, after considering the representation, if any, made by person chargeable with tax, determine the amount of tax, interest and a penalty equivalent to ten per cent. of tax or ten thousand rupees, whichever is higher, due from such person and issue an order.",
+      "source_url": "https://cbic-gst.gov.in/cgt-act.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-rules-r142#p1": {
+      "id": "cgst-rules-r142#p1",
+      "doc_id": "cgst-rules-r142",
+      "section_ref": "Rule 142(4)",
+      "content": "The representation referred to in sub-section (9) of section 73 or sub-section (9) of section 74 or sub-section (3) of section 76 or the reply to any notice issued under any other section shall be in FORM GST DRC-06.",
+      "source_url": "https://cbic-gst.gov.in/rules.html",
+      "retrieved_on": "2026-10-31"
+    }
+  }
+}

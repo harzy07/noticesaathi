@@ -1,0 +1,57 @@
+{
+  "notice": {
+    "id": "f8a9b0c1-d2e3-4f4a-8b6c-7d8e9f0a1b2c",
+    "session_id": "sess_demo_anon_008",
+    "client_name": "Sunrise Agro Industries",
+    "file_path": "notices/f8a9b0c1-d2e3-4f4a-8b6c-7d8e9f0a1b2c/corrupted_scan.pdf",
+    "file_mime": "application/pdf",
+    "status": "failed",
+    "error": "Pipeline error at analysis stage: Gateway timeout communicating with reasoning model after 45 seconds. Your extracted fields have been saved.",
+    "created_at": "2026-11-01T02:35:00.000Z"
+  },
+  "extraction": {
+    "notice_id": "f8a9b0c1-d2e3-4f4a-8b6c-7d8e9f0a1b2c",
+    "data": {
+      "notice_type": "ASMT-10",
+      "type_confidence": 0.88,
+      "gstin": "06AABCS4019E1Z8",
+      "taxpayer_name": "Sunrise Agro Industries",
+      "issuing_office": "Excise & Taxation Officer, Ward 2, Karnal",
+      "reference_number": "GST/HR/KAR/2026/810",
+      "notice_date": "2026-10-14",
+      "reply_due_date": "2026-11-13",
+      "financial_period": "2023-24",
+      "sections_cited": ["Section 61"],
+      "amount_demanded": {
+        "tax": 110000,
+        "interest": 0,
+        "penalty": 0,
+        "total": 110000,
+        "currency": "INR"
+      },
+      "alleged_issues": [
+        {
+          "issue": "Discrepancy in outward taxable supplies between GSTR-1 and GSTR-3B",
+          "evidence_quote": "Differential tax payable of Rs 1,10,000 noticed in scrutiny of return",
+          "page": 1
+        }
+      ],
+      "documents_requested": [
+        "Reconciliation statement of turnover"
+      ],
+      "language_detected": "en",
+      "legibility": "fair",
+      "field_confidence": {
+        "notice_date": 0.85,
+        "reply_due_date": 0.82,
+        "amount_demanded": 0.8
+      }
+    },
+    "model": "gemini-2.5-flash",
+    "latency_ms": 1650
+  },
+  "deadline": null,
+  "analysis": null,
+  "draft": null,
+  "sources": {}
+}

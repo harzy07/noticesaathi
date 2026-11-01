@@ -1,0 +1,180 @@
+{
+  "notice": {
+    "id": "e3c4d5e6-f7a8-4c9d-8e1f-2a3b4c5d6e7f",
+    "session_id": "sess_demo_anon_003",
+    "client_name": "Bharat Spices & Commodities",
+    "file_path": "notices/e3c4d5e6-f7a8-4c9d-8e1f-2a3b4c5d6e7f/asmt10_notice.pdf",
+    "file_mime": "application/pdf",
+    "status": "done",
+    "error": null,
+    "created_at": "2026-11-01T02:10:00.000Z"
+  },
+  "extraction": {
+    "notice_id": "e3c4d5e6-f7a8-4c9d-8e1f-2a3b4c5d6e7f",
+    "data": {
+      "notice_type": "ASMT-10",
+      "type_confidence": 0.99,
+      "gstin": "27AABCU9603R1ZM",
+      "taxpayer_name": "Bharat Spices & Commodities Pvt Ltd",
+      "issuing_office": "Office of the Assistant Commissioner, Range III, Division II, Pune",
+      "reference_number": "GST/MH/PUNE/ASMT-10/2026/8712",
+      "notice_date": "2026-10-10",
+      "reply_due_date": "2026-11-09",
+      "financial_period": "2023-24",
+      "sections_cited": ["Section 61", "Section 16(2)", "Rule 99"],
+      "amount_demanded": {
+        "tax": 215000,
+        "interest": 27500,
+        "penalty": 0,
+        "total": 242500,
+        "currency": "INR"
+      },
+      "alleged_issues": [
+        {
+          "issue": "Discrepancy in Input Tax Credit claimed in GSTR-3B vs GSTR-2B reflecting difference of Rs. 2,15,000/-",
+          "evidence_quote": "ITC availed under all other ITC in Table 4(A)(5) exceeds inward supplies reported in GSTR-2B",
+          "page": 1
+        }
+      ],
+      "documents_requested": [
+        "Inward invoices of vendors where discrepancy is noted",
+        "Payment reconciliation with bank vouchers",
+        "Form GST ASMT-11 explanation"
+      ],
+      "language_detected": "en",
+      "legibility": "good",
+      "field_confidence": {
+        "notice_date": 0.99,
+        "reply_due_date": 0.98,
+        "amount_demanded": 0.97
+      }
+    },
+    "model": "gemini-2.5-flash",
+    "latency_ms": 1380
+  },
+  "deadline": {
+    "computed_due_date": "2026-11-09",
+    "printed_due_date": "2026-11-09",
+    "reply_form": "ASMT-11",
+    "days_remaining": 8,
+    "is_estimate": false,
+    "window_basis": "from date of service of notice",
+    "mismatch_flag": false,
+    "warning": null
+  },
+  "analysis": {
+    "notice_id": "e3c4d5e6-f7a8-4c9d-8e1f-2a3b4c5d6e7f",
+    "summary_en": "You have received a scrutiny intimation under Form GST ASMT-10 for the financial year 2023-24. The tax officer has identified that your claimed ITC in GSTR-3B exceeds the auto-populated figures in GSTR-2B by Rs. 2,15,000. Under Rule 99 of the CGST Rules, this notice simply requests an explanation and reconciliation of the difference. It does not establish a finalized tax demand or impose penalties at this stage. You have 30 days to furnish your reply in Form GST ASMT-11 along with purchase registers and payment records. Timely submission of the reconciliation normally results in dropped proceedings under Rule 99(2).",
+    "summary_hi": "आपको वित्तीय वर्ष 2023-24 के लिए फॉर्म GST ASMT-10 में स्क्रूटनी सूचना प्राप्त हुई है। कर अधिकारी ने पाया है कि आपके GSTR-3B में दावा किया गया इनपुट टैक्स क्रेडिट (ITC), GSTR-2B में उपलब्ध क्रेडिट से ₹2,15,000 अधिक है। सीजीएसटी नियमों के नियम 99 के तहत, यह नोटिस केवल विसंगतियों पर स्पष्टीकरण और समाधान मांगता है। इस स्तर पर कोई अंतिम कर मांग या जुर्माना नहीं लगाया गया है। आपके पास फॉर्म GST ASMT-11 में खरीद रजिस्टर और बैंक भुगतान विवरण के साथ अपना जवाब प्रस्तुत करने के लिए 30 दिन का समय है। समाधान प्रस्तुत करने पर नियम 99(2) के तहत मामला समाप्त कर दिया जाता है।",
+    "severity": "medium",
+    "severity_reason": "Scrutiny notice under Section 61 with 30-day statutory window and no allegation of fraud or suppression.",
+    "what_they_want": [
+      "Explain the variance of Rs. 2,15,000 between GSTR-3B and GSTR-2B.",
+      "Furnish invoice-wise ITC reconciliation statement.",
+      "Submit reply in Form GST ASMT-11 within 30 days."
+    ],
+    "checklist": [
+      {
+        "item": "Monthly GSTR-2B vs GSTR-3B invoice-level matching sheet",
+        "why": "Identifies exact vendor invoices causing the reporting delta [[cgst-rules-r99#p1]].",
+        "source_ids": ["cgst-rules-r99#p1"]
+      },
+      {
+        "item": "Copies of tax invoices issued by suppliers",
+        "why": "Establishes entitlement to credit under Section 16(2)(a) [[cgst-act-s16#p2]].",
+        "source_ids": ["cgst-act-s16#p2"]
+      },
+      {
+        "item": "Banking proof of payment within 180 days",
+        "why": "Confirms compliance with statutory payment condition under Section 16(2) [[cgst-act-s16#p2]].",
+        "source_ids": ["cgst-act-s16#p2"]
+      }
+    ],
+    "action_plan": [
+      {
+        "step": "Prepare invoice-by-invoice reconciliation identifying timing differences",
+        "due_date": "2026-11-03",
+        "owner": "accountant"
+      },
+      {
+        "step": "Obtain CA confirmation or vendor declarations for delayed GSTR-1 filings",
+        "due_date": "2026-11-06",
+        "owner": "taxpayer"
+      },
+      {
+        "step": "Review and file reply in Form GST ASMT-11 on GST portal",
+        "due_date": "2026-11-08",
+        "owner": "CA"
+      }
+    ],
+    "citations": [
+      {
+        "chunk_id": "cgst-act-s61#p1",
+        "label": "Section 61 Scrutiny of Returns",
+        "quote_snippet": "The proper officer may scrutinize the return to verify the correctness of the return and inform him of the discrepancies noticed."
+      },
+      {
+        "chunk_id": "cgst-rules-r99#p1",
+        "label": "Rule 99(1) Scrutiny Notice & Explanation",
+        "quote_snippet": "In case of any discrepancy, he shall issue a notice to the said person in FORM GST ASMT-10 seeking his explanation thereto within thirty days."
+      },
+      {
+        "chunk_id": "cgst-rules-r99#p2",
+        "label": "Rule 99(2) Acceptance of Explanation",
+        "quote_snippet": "Where the explanation furnished by the registered person is found to be acceptable, the proper officer shall inform him in FORM GST ASMT-12."
+      },
+      {
+        "chunk_id": "cgst-act-s16#p2",
+        "label": "Section 16(2) Conditions for ITC",
+        "quote_snippet": "No registered person shall be entitled to the credit of any input tax unless he is in possession of a tax invoice or debit note."
+      }
+    ],
+    "validation": {
+      "total": 4,
+      "verified": 4,
+      "dropped": []
+    }
+  },
+  "draft": {
+    "id": "f4d5e6f7-a8b9-4d0e-8f2a-3b4c5d6e7f8a",
+    "notice_id": "e3c4d5e6-f7a8-4c9d-8e1f-2a3b4c5d6e7f",
+    "version": 1,
+    "body_md": "# REPLY TO INTIMATION OF DISCREPANCIES (FORM GST ASMT-10)\n\n**To:**\nThe Assistant Commissioner,\nRange III, Division II,\nPune Commissionerate\n\n**Subject:** Reply to Notice for Intimation of Discrepancies in Form GST ASMT-10 bearing Ref No: GST/MH/PUNE/ASMT-10/2026/8712 dated 10-10-2026\n\n**GSTIN:** 27AABCU9603R1ZM  \n**Taxpayer Name:** Bharat Spices & Commodities Pvt Ltd  \n**Financial Year:** 2023-24  \n\n---\n\nRespected Sir/Madam,\n\n### 1. Preliminary Acknowledgment & Timeliness\nWe acknowledge receipt of the notice in Form GST ASMT-10 dated 10-10-2026, served upon us on 10-10-2026 under Section 61 of the Central Goods and Services Tax Act, 2017 [[cgst-act-s61#p1]] read with Rule 99(1) of the CGST Rules, 2017 [[cgst-rules-r99#p1]]. This reply is submitted within the prescribed statutory period of thirty days and is well within the limitation period.\n\n### 2. Point-Wise Response to Discrepancy Alleged\n**Allegation:** Discrepancy between Input Tax Credit availed in Form GSTR-3B and credit reflected in Form GSTR-2B amounting to Rs. 2,15,000/-.\n\n**Taxpayer Submission:**\n1. It is respectfully submitted that the taxpayer has availed Input Tax Credit in strict compliance with the statutory conditions enumerated under Section 16(2) of the CGST Act, 2017 [[cgst-act-s16#p2]]. Specifically, the taxpayer was in physical possession of valid tax invoices, received the corresponding inward supplies, and made complete payment of consideration along with tax within 180 days.\n2. The observed difference of Rs. 2,15,000/- arose due to timing discrepancies where bona fide suppliers filed their relevant returns in subsequently succeeding tax periods [ADD: Vendor names, invoice numbers, and subsequent return period details].\n3. The actual tax charged has been duly deposited to the Government account [ADD: Vendor GSTINs and tax deposit challan references].\n4. We enclose our detailed invoice-by-invoice reconciliation reconciling each discrepancy noted by your good office [ADD: Total purchase volume and matching summary for FY 2023-24].\n\n### 3. Prayer and Request\nIn light of the factual clarifications and enclosed documentary evidence complying with statutory provisions [[cgst-rules-r99#p1]], we respectfully pray that:\na) The explanation submitted herein be found acceptable under Rule 99(2) of the CGST Rules, 2017 [[cgst-rules-r99#p2]], and the proceedings initiated under Form GST ASMT-10 be formally dropped;\nb) An order in Form GST ASMT-12 accepting the explanation be issued;\nc) If your good office contemplates any adverse finding, an opportunity of personal hearing be granted to our authorized representative prior to the issuance of any notice under Section 73 or Section 74.\n\n---\n\n### 4. List of Enclosures\n1. Detailed GSTR-2B vs GSTR-3B reconciliation statement.\n2. Sample copies of inward tax invoices and e-way bills.\n3. Bank account statements evidencing payment within 180 days.\n4. [ADD: Chartered Accountant certificate or vendor confirmations].\n\nYours faithfully,\n\nFor **Bharat Spices & Commodities Pvt Ltd**\n\n\n\n__________________________________  \n**Authorized Signatory**  \nName: [Designation / Director]  \nDate: [Date of Submission]",
+    "instructions": null,
+    "created_at": "2026-11-01T02:11:00.000Z"
+  },
+  "sources": {
+    "cgst-act-s61#p1": {
+      "id": "cgst-act-s61#p1",
+      "doc_id": "cgst-act-s61",
+      "section_ref": "Section 61",
+      "content": "The proper officer may scrutinize the return and related particulars furnished by the registered person to verify the correctness of the return and inform him of the discrepancies noticed, if any, in such manner as may be prescribed and seek his explanation thereto.",
+      "source_url": "https://cbic-gst.gov.in/cgt-act.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-rules-r99#p1": {
+      "id": "cgst-rules-r99#p1",
+      "doc_id": "cgst-rules-r99",
+      "section_ref": "Rule 99(1)",
+      "content": "Where any return furnished by a registered person is selected for scrutiny, the proper officer shall scrutinize the same with reference to the information available with him, and in case of any discrepancy, he shall issue a notice to the said person in FORM GST ASMT-10, informing him of such discrepancy and seeking his explanation thereto within such time, not exceeding thirty days from the date of service of the notice.",
+      "source_url": "https://cbic-gst.gov.in/rules.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-rules-r99#p2": {
+      "id": "cgst-rules-r99#p2",
+      "doc_id": "cgst-rules-r99",
+      "section_ref": "Rule 99(2)",
+      "content": "Where the explanation furnished by the registered person or where considered necessary, after considering the additional information, if any, furnished by the registered person, is found to be acceptable, the proper officer shall inform him accordingly in FORM GST ASMT-12.",
+      "source_url": "https://cbic-gst.gov.in/rules.html",
+      "retrieved_on": "2026-10-31"
+    },
+    "cgst-act-s16#p2": {
+      "id": "cgst-act-s16#p2",
+      "doc_id": "cgst-act-s16",
+      "section_ref": "Section 16(2)",
+      "content": "Notwithstanding anything contained in this section, no registered person shall be entitled to the credit of any input tax in respect of any supply of goods or services or both to him unless (a) he is in possession of a tax invoice or debit note issued by a supplier registered under this Act; (b) he has received the goods or services or both; (c) the tax charged has been paid to the Government; and (d) he has furnished the return under section 39.",
+      "source_url": "https://cbic-gst.gov.in/cgt-act.html",
+      "retrieved_on": "2026-10-31"
+    }
+  }
+}

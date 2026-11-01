@@ -57,6 +57,20 @@
 - What you were unsure about: None; the Stitch export cleanly mapped to the required Next.js pages.
 - What a human must verify: Browser rendering of Plus Jakarta Sans and Noto Sans Devanagari fonts on local dev.
 
+### Milestone 2: Migration SQL, DB Client, /api/health, Contracts & Fixtures (2026-11-01T06:27:00+05:30 to 2026-11-01T06:39:00+05:30)
+- Goal: Supabase migration with vector extension, RLS, and storage bucket; server DB client with session cookie manager; health check; Zod schemas; and mock mode fixtures.
+- What the agent produced:
+  - `supabase/migrations/001_init.sql` updated to include `what_they_want jsonb` in `analyses`, `verified boolean default false` in `kb_docs`, RLS enabled on all 7 tables with private storage bucket `notice-uploads`.
+  - `src/lib/db/client.ts` with server-side service role client and 30-day anonymous session cookie helper.
+  - `GET /api/health` returning `{ ok: true, db: boolean }`.
+  - `contracts/types.ts` enhanced to support nullable amounts demanded, deterministic deadline aliases, placeholder counts, and verified chunk markers.
+  - Validated all 8 fixtures via `npm run validate-fixtures`.
+  - Created `.env.example` with empty keys and `.env.local` with development fallback configuration.
+  - Verified `typecheck`, `test`, `lint`, and `build` all pass cleanly.
+- Human review: Confirmed DB schema and contract compatibility.
+- What you were unsure about: None.
+- What a human must verify: Execute `supabase/migrations/001_init.sql` in the Supabase SQL editor when provisioning live cloud project.
+
 ## 4. Prompt library
 - Phase 1: [docs/prompts/phase-1.md](./prompts/phase-1.md)
 - Phase 1B: [docs/prompts/phase-1b.md](./prompts/phase-1b.md)

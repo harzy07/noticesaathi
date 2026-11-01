@@ -34,8 +34,9 @@ create table if not exists analyses (
   summary_hi text,
   severity text, -- low|medium|high|critical
   severity_reason text,
+  what_they_want jsonb, -- bullets of exactly what the officer asks the taxpayer to do
   checklist jsonb, -- [{item, why, source_ids[]}]
-  action_plan jsonb, -- [{step, due_date, owner}]
+  action_plan jsonb, -- [{step, day_offset, owner}]
   citations jsonb, -- [{chunk_id, label, quote_snippet}]
   validation jsonb -- {total, verified, dropped[]}
 );
@@ -57,9 +58,10 @@ create table if not exists kb_docs (
   id text primary key, -- e.g. 'cgst-act-s73'
   title text,
   source_url text,
-  source_type text, -- act|rule|circular|form|notice-guide
+  source_type text, -- act|rule|circular|form|explainer
   version_note text,
-  retrieved_on date
+  retrieved_on date,
+  verified boolean default false
 );
 
 -- 6. Table: kb_chunks
@@ -78,16 +80,28 @@ create index if not exists kb_chunks_section_ref_idx on kb_chunks (section_ref);
 
 -- 7. Table: review_links
 create table if not exists review_links (
-  token text primary key, -- random 24+ chars
+  token text primary key, -- random 32 chars
   notice_id uuid references notices(id) on delete cascade,
   expires_at timestamptz not null,
-  comments jsonb default '[]' -- [{author, text, at}]
+  comments jsonb default '[]' -- [{author, text, created_at}]
 );
 
 create index if not exists review_links_token_idx on review_links (token);
 create index if not exists review_links_notice_id_idx on review_links (notice_id);
 
+-- Enable Row Level Security (RLS) on all tables
+-- With no public policies, since all client access routes through the server using the service role key
+alter table notices enable row level security;
+alter table extractions enable row level security;
+alter table analyses enable row level security;
+alter table drafts enable row level security;
+alter table kb_docs enable row level security;
+alter table kb_chunks enable row level security;
+alter table review_links enable row level security;
+
 -- Storage bucket setup: notice-uploads (private bucket)
+-- Manual UI click path if storage.buckets insertion is restricted:
+-- Supabase Dashboard -> Storage -> New bucket -> Name: 'notice-uploads' -> Toggle Public bucket OFF -> Save.
 insert into storage.buckets (id, name, public)
 values ('notice-uploads', 'notice-uploads', false)
 on conflict (id) do nothing;

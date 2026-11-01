@@ -54,10 +54,10 @@ export type Notice = z.infer<typeof NoticeSchema>;
 
 // Extraction Data (Section 4 Extraction JSON spec)
 export const AmountDemandedSchema = z.object({
-  tax: z.number(),
-  interest: z.number(),
-  penalty: z.number(),
-  total: z.number(),
+  tax: z.number().nullable().optional(),
+  interest: z.number().nullable().optional(),
+  penalty: z.number().nullable().optional(),
+  total: z.number().nullable().optional(),
   currency: z.literal("INR").default("INR"),
 });
 export type AmountDemanded = z.infer<typeof AmountDemandedSchema>;
@@ -108,13 +108,16 @@ export type Extraction = z.infer<typeof ExtractionSchema>;
 
 // Deterministic Deadline (Computed in code from notice_rules.json, never by LLM)
 export const DeadlineSchema = z.object({
-  computed_due_date: z.string().nullable(), // YYYY-MM-DD
-  printed_due_date: z.string().nullable(), // YYYY-MM-DD from notice
+  due_date: z.string().nullable().optional(), // YYYY-MM-DD
+  computed_due_date: z.string().nullable().optional(), // backward compatibility alias
+  printed_due_date: z.string().nullable().optional(), // YYYY-MM-DD from notice
   reply_form: z.string().nullable(), // e.g. "ASMT-11", "DRC-06"
-  days_remaining: z.number().nullable(),
-  is_estimate: z.boolean(),
-  window_basis: z.string().nullable(), // e.g. "from date of service of notice", "working days"
-  mismatch_flag: z.boolean(),
+  days_remaining: z.number().nullable().optional(),
+  is_estimate: z.boolean().default(false),
+  basis: z.string().nullable().optional(), // e.g. "30 calendar days from service"
+  window_basis: z.string().nullable().optional(), // backward compatibility alias
+  mismatch: z.boolean().optional(),
+  mismatch_flag: z.boolean().optional(), // backward compatibility alias
   warning: z.string().nullable().optional(),
 });
 export type Deadline = z.infer<typeof DeadlineSchema>;
@@ -129,7 +132,8 @@ export type ChecklistItem = z.infer<typeof ChecklistItemSchema>;
 
 export const ActionPlanStepSchema = z.object({
   step: z.string(),
-  due_date: z.string(),
+  day_offset: z.number().int().optional(),
+  due_date: z.string().optional(),
   owner: z.string(), // "taxpayer" | "CA" | "accountant"
 });
 export type ActionPlanStep = z.infer<typeof ActionPlanStepSchema>;
@@ -168,6 +172,7 @@ export const DraftSchema = z.object({
   notice_id: z.string().uuid(),
   version: z.number().int().min(1).default(1),
   body_md: z.string(),
+  placeholder_count: z.number().int().min(0).optional(),
   instructions: z.string().nullable().optional(),
   created_at: z.string().optional(),
 });
@@ -181,6 +186,7 @@ export const SourceChunkSchema = z.object({
   content: z.string(),
   source_url: z.string().nullable().optional(),
   retrieved_on: z.string().nullable().optional(),
+  verified: z.boolean().default(false),
   score: z.number().optional(),
 });
 export type SourceChunk = z.infer<typeof SourceChunkSchema>;
